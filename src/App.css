@@ -1,42 +1,130 @@
+:root {
+  background-color: #f6f6f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --bg: #fff;
+	--bg2: #d4d4d4;
+	--bg3: #f8f8f8;
+	--c1: #000;
+	--bgc: #d4d4d4;
+  --active: #fcfcfc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+button {
+  background-color: var(--active);
+  color: #ffff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  scale: 105%;
+  cursor: pointer;
+}
+
+.btn-b {
+	color: var(--c1);
+  border: 2px solid var(--active);
+}
+
+.buttonsLine {
+	display: flex;
+	justify-content: flex-end;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+  margin: 10px 0px 0px 0px;
+  gap: 10px;
+}
+
+section {
+  padding: 20px;
+  margin: 30px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+  max-width: 1080px;
+}
+
+section.simple {
+  max-width: 520px;
+}
+
+.active {
+  color: var(--active);
+  transition: color .3s;
+}
+
+.active button 
+
+footer {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+footer p {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+a {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+input:focus {
+	outline: 2px solid var(--active);
+	border: 1px solid transparent;
+}
+
+label {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px; 
+	flex: 1 1 380px;
+	font-size: 0.8rem;
+  margin: 10px 0px;
+}
+
+input {
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 1px solid var(--bg2);
+	color: var(--c1);
+	background-color: var(--bg3);
+	font-size: 1rem;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  a {
+   display: flex;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+ 
+   button {
+     flex-basis: 0;
+     flex-grow: 1 !important;
+   }
+ 
+ }

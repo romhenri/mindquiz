@@ -1,0 +1,40 @@
+nav {
+  position: sticky;
+  color: rgba(255, 255, 255, 0.87);
+  top: 0;
+  left: 0;
+
+  background-color: #212370;
+  margin: 20px auto;
+  padding: 10px 30px;
+  gap: 10px;
+  border-radius: 10px;
+  max-width: 1080px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+nav h1 {
+  font-weight: 400;
+}
+
+nav span {
+  font-weight: 700;
+}

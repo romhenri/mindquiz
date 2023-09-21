@@ -1,17 +1,25 @@
-import React from "react";
-import "../css/Navbar.css";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+// import Button from './Button'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <div className="header">
-      <div>MindQuiz</div>
-      <nav>
-        <NavLink to={"/"}> Início </NavLink>
-        <NavLink to={"quiz"}> Quizes </NavLink>
-      </nav>
-    </div>
-  );
-};
+    <nav>
+      <h1><span>Mind</span>Quiz</h1>
+      
+      <div>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="quiz">Quizzes</NavLink>
+      <NavLink to="about">About</NavLink>
+      {/* <NavLink to="singup">
+        <Button text="Registre-se"/>
+      </NavLink> */}
+      </div>
 
-export default Navbar;
+      
+    </nav>
+  )
+}
+
+export default Navbar
