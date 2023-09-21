@@ -1,0 +1,28 @@
+.welcome {
+  padding-bottom: 0px;
+}
+
+.container {
+  display: flex !important;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.container div{
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-shrink: initial;
+  overflow: hidden;
+}
+
+.welcome .container div img{
+  position: relative;
+  top: 29px;
+}
+
+.welcome .container div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
