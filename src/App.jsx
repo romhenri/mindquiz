@@ -14,22 +14,12 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
-          <Route path='quiz' element={<QuizPage/>}>
-              <Route index element={<Question/>}/>
-              <Route path='test' element={
-                <section>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet omnis, error veritatis hic est. Temporibus, reiciendis? Ipsa libero veritatis possimus nihil quasi ullam id, voluptatum obcaecati, necessitatibus quam deserunt.
-                </section>
-              }/>
-              <Route path='*' element={
-                <section>
-                  <h2>Quiz não Encontrado!</h2>
-                  <p>Lamentamos mas o quiz específicado não foi encontrado.</p>
-
-                  <NavLink to="quiz">Voltar</NavLink>
-                </section>
-              }/>
-           </Route>
+          <Route path='quiz'>
+            <Route index element={<QuizPage/>}/>
+            <Route path='*' element={<Question/>}>
+              <Route path='test' element={<HomePage/>}/>  
+            </Route>
+          </Route>
           <Route path='about' element={<main>
             <section>
               <h2>AboutPage</h2>
@@ -48,3 +38,12 @@ function App() {
 }
 
 export default App
+
+
+// <Route path='*' element={
+//               <section>
+//                 <h2>Quiz não Encontrado!</h2>
+//                 <p>Lamentamos mas o quiz específicado não foi encontrado.</p>
+
+//                 <NavLink to="quiz">Voltar</NavLink>
+//               </section>}/>

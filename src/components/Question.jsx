@@ -1,8 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
-const Question = () => {
+const Question = ({title}) => {
   return (
-    <section>DDD</section>
+    <section>
+      <div>{title}</div>
+      Question
+      <Outlet/>
+    </section>
   )
 }
 
