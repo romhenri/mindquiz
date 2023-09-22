@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import QuizPage from './pages/QuizPage'
+import Question from './components/Question'
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
-          <Route path='quiz'>
-              <Route path='quiz'/>
+          <Route path='quiz' element={<QuizPage/>}>
+              <Route index element={<Question/>}/>
               <Route path='test' element={
                 <section>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet omnis, error veritatis hic est. Temporibus, reiciendis? Ipsa libero veritatis possimus nihil quasi ullam id, voluptatum obcaecati, necessitatibus quam deserunt.

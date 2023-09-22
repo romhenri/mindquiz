@@ -1,10 +1,10 @@
-nav {
+.navbar {
   position: sticky;
   color: rgba(255, 255, 255, 0.87);
   top: 0;
   left: 0;
 
-  background-color: #212370;
+  background-color: #212370 !important;
   margin: 20px auto;
   padding: 10px 30px;
   gap: 10px;
@@ -15,26 +15,47 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-nav a {
+.navbar a {
   color: aliceblue;
   text-decoration: none;
 }
 
-nav div {
+.navbar nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 50px;
+  border-radius: 10px;
 }
 
-nav h1 {
+.navbar h1 {
   font-weight: 400;
-}
+} 
 
-nav span {
+.navbar span {
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    border-radius: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  .navbar nav {
+    padding: 10px !important;
+  }
+
+  .navbar h1 {
+    margin: 0px !important;
+  }
+
+  section {
+    border-radius: 0px;
+  }
+}
+ 

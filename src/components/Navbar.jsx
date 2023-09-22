@@ -5,20 +5,20 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <nav>
+    <div className={styles.navbar}>
+
       <h1><span>Mind</span>Quiz</h1>
       
-      <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="quiz">Quizzes</NavLink>
-      <NavLink to="about">About</NavLink>
-      {/* <NavLink to="singup">
-        <Button text="Registre-se"/>
-      </NavLink> */}
-      </div>
+      <nav>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="quiz">Quizzes</NavLink>
+        <NavLink to="about">About</NavLink>
+        {/* <NavLink to="singup">
+          <Button text="Registre-se"/>
+        </NavLink> */}
+      </nav>
 
-      
-    </nav>
+    </div>
   )
 }
 
