@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import QuizPage from './pages/QuizPage'
+import Quiz from './components/Quiz'
 import Question from './components/Question'
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
           <Route path='/' element={<HomePage/>}/>
           <Route path='quiz'>
             <Route index element={<QuizPage/>}/>
-            <Route path='*' element={<Question/>}>
-              <Route path='test' element={<HomePage/>}/>  
+            <Route path='*' element={<Quiz/>}>
+              <Route path='*' element={<Question/>}/>
             </Route>
           </Route>
           <Route path='about' element={<main>
