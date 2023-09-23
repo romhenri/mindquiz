@@ -22,3 +22,8 @@
   background-color: #212370 !important;
   flex-grow: 1;
 }
+
+.question button:active {
+  scale: 95%;
+  transition: .3s;
+}

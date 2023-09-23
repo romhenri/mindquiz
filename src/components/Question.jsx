@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './Questions.css';
 import dataJSON from './test.json';
 
+var score = 0
+var numberOfQuestions
+
 class RadioForm extends Component {
   constructor(props) {
     super(props);
@@ -22,9 +25,13 @@ class RadioForm extends Component {
     const selectedValue = this.state.selectedOption;
     console.log('Selected:', selectedValue);
 
-    // if (selectedValue == currentQuestion.answer) {
-    //   console.log("nice");
-    // }
+    const currentQuestion = dataJSON[this.state.currentQuestionIndex];
+    numberOfQuestions = dataJSON.length;
+
+    if (selectedValue == currentQuestion.answer) {
+      score++;
+      console.log(score);
+    }
 
     // Next question
     this.setState((prevState) => ({
@@ -37,9 +44,23 @@ class RadioForm extends Component {
     const currentQuestion = dataJSON[this.state.currentQuestionIndex];
 
     if (!currentQuestion) {
+      var rate = (score / numberOfQuestions) * 100
+
+      if (rate >  90) {
+        console.log('green');
+      } else if (rate > 80) {
+        console.log('dark green');
+      } else if (rate > 70) {
+        console.log('yellow');
+      } else {
+        console.log('red');
+      }
+
       // End
-      return <div>Done!</div>;
-    }
+      return <div>
+        <h2>{rate}%</h2>
+      </div>;
+    } 
 
     return (
       <div className='question'>
@@ -102,7 +123,10 @@ class RadioForm extends Component {
         </div>
 
         <div className='buttonsLine'>
-         <button onClick={this.handleConfirm}>Confirm</button>
+         <button onClick={
+          this.handleConfirm
+          }>Confirm
+          </button>
         </div>
       </div>
     );

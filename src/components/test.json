@@ -53,5 +53,60 @@
       { "id": "d", "text": "Lion" }
     ],
     "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What gas do humans exhale when breathing?",
+    "options": [
+      { "id": "a", "text": "Oxygen" },
+      { "id": "b", "text": "Carbon dioxide" },
+      { "id": "c", "text": "Nitrogen" },
+      { "id": "d", "text": "Hydrogen" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      { "id": "a", "text": "Heart" },
+      { "id": "b", "text": "Liver" },
+      { "id": "c", "text": "Brain" },
+      { "id": "d", "text": "Skin" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 8,
+    "question": "Who wrote the 'Harry Potter' book series?",
+    "options": [
+      { "id": "a", "text": "J.K. Rowling" },
+      { "id": "b", "text": "Stephen King" },
+      { "id": "c", "text": "George Orwell" },
+      { "id": "d", "text": "Agatha Christie" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "What's the smallest planet in our solar system?",
+    "options": [
+      { "id": "a", "text": "Earth" },
+      { "id": "b", "text": "Mars" },
+      { "id": "c", "text": "Mercury" },
+      { "id": "d", "text": "Venus" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 10,
+    "question": "What is 6 multiplied by 7?",
+    "options": [
+      { "id": "a", "text": "36" },
+      { "id": "b", "text": "42" },
+      { "id": "c", "text": "48" },
+      { "id": "d", "text": "54" }
+    ],
+    "answer": "b"
   }
 ]
