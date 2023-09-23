@@ -14,8 +14,8 @@
 .option input[type="radio"] {
  scale: 1.5;
  margin-left: 30px;
- border: none !important;
  padding: 0px !important;
+ outline: none;
 }
 
 .question button {
