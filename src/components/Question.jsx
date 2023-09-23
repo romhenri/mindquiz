@@ -22,6 +22,10 @@ class RadioForm extends Component {
     const selectedValue = this.state.selectedOption;
     console.log('Selected:', selectedValue);
 
+    // if (selectedValue == currentQuestion.answer) {
+    //   console.log("nice");
+    // }
+
     // Next question
     this.setState((prevState) => ({
     currentQuestionIndex: prevState.currentQuestionIndex + 1,
@@ -34,12 +38,12 @@ class RadioForm extends Component {
 
     if (!currentQuestion) {
       // End
-      return <div>Todas as perguntas foram respondidas.</div>;
+      return <div>Done!</div>;
     }
 
     return (
       <div className='question'>
-        <h3>What's Messi's country?</h3>
+        <h3>{currentQuestion.question}</h3>
 
         <div className="option">
           <input
@@ -50,7 +54,9 @@ class RadioForm extends Component {
             checked={this.state.selectedOption === 'a'}
             onChange={this.handleOptionChange}
           />
-          <label htmlFor="a">Brazil</label>
+          <label htmlFor="a">
+            {currentQuestion.options[0].text}
+          </label>
         </div>
 
         <div className="option">
@@ -62,7 +68,9 @@ class RadioForm extends Component {
             checked={this.state.selectedOption === 'b'}
             onChange={this.handleOptionChange}
           />
-          <label htmlFor="b">Argentina</label>
+          <label htmlFor="b">
+            {currentQuestion.options[1].text}
+          </label>
         </div>
 
         <div className="option">
@@ -74,7 +82,9 @@ class RadioForm extends Component {
             checked={this.state.selectedOption === 'c'}
             onChange={this.handleOptionChange}
           />
-          <label htmlFor="c">Portugal</label>
+          <label htmlFor="c">
+            {currentQuestion.options[2].text}
+          </label>
         </div>
 
         <div className="option">
@@ -86,7 +96,9 @@ class RadioForm extends Component {
             checked={this.state.selectedOption === 'd'}
             onChange={this.handleOptionChange}
           />
-          <label htmlFor="d">Spain</label>
+          <label htmlFor="d">
+          {currentQuestion.options[3].text}
+          </label>
         </div>
 
         <div className='buttonsLine'>

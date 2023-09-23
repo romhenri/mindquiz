@@ -7,7 +7,8 @@
       { "id": "b", "text": "Argentina" },
       { "id": "c", "text": "Portugal" },
       { "id": "d", "text": "Spain" }
-    ]
+    ],
+    "answer": "b"
   },
   {
     "id": 2,
@@ -17,6 +18,40 @@
       { "id": "b", "text": "London" },
       { "id": "c", "text": "Berlin" },
       { "id": "d", "text": "Rome" }
-    ]
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "What's the largest planet in our solar system?",
+    "options": [
+      { "id": "a", "text": "Earth" },
+      { "id": "b", "text": "Mars" },
+      { "id": "c", "text": "Jupiter" },
+      { "id": "d", "text": "Venus" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 4,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      { "id": "a", "text": "Leonardo da Vinci" },
+      { "id": "b", "text": "Vincent van Gogh" },
+      { "id": "c", "text": "Pablo Picasso" },
+      { "id": "d", "text": "Michelangelo" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "What's the largest mammal on Earth?",
+    "options": [
+      { "id": "a", "text": "Elephant" },
+      { "id": "b", "text": "Blue Whale" },
+      { "id": "c", "text": "Giraffe" },
+      { "id": "d", "text": "Lion" }
+    ],
+    "answer": "b"
   }
 ]
