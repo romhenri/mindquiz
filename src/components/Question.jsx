@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './Questions.css';
+import dataJSON from './test.json';
 
 class RadioForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      currentQuestionIndex: 0,
       selectedOption: null, // Default value
     };
   }
@@ -18,10 +20,23 @@ class RadioForm extends Component {
 
   handleConfirm = () => {
     const selectedValue = this.state.selectedOption;
-    console.log('Valor selecionado:', selectedValue);
+    console.log('Selected:', selectedValue);
+
+    // Next question
+    this.setState((prevState) => ({
+    currentQuestionIndex: prevState.currentQuestionIndex + 1,
+    selectedOption: '',
+  }))
   };
 
   render() {
+    const currentQuestion = dataJSON[this.state.currentQuestionIndex];
+
+    if (!currentQuestion) {
+      // End
+      return <div>Todas as perguntas foram respondidas.</div>;
+    }
+
     return (
       <div className='question'>
         <h3>What's Messi's country?</h3>
