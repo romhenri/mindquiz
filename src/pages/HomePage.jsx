@@ -1,6 +1,6 @@
 import React from 'react'
 import womanThinking from '../assets/woman-thinking-bro.png';
-import styles from '../css/HomePage.css'
+import '../css/Pages.css'
 
 const HomePage = () => {
   return (

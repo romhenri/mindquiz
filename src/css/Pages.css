@@ -1,0 +1,84 @@
+.welcome, .quizzes {
+  padding-bottom: 0px;
+}
+
+.welcome div:nth-child(2){
+  padding-left: 30px;
+}
+.quizzes div:nth-child(1){
+  padding-left: 10px;
+}
+
+.container {
+  display: flex !important;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+/* 6981BA */
+
+.container img {
+  height: 250px;
+}
+
+.container div
+.welcome .container div img{
+  max-width: 200px;
+}
+
+.welcome .container div:nth-child(2),
+.quizzes .container div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-shrink: initial;
+}
+
+@media (max-width: 768px) {
+
+  section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .welcome .container {
+    flex-direction: column-reverse;
+  }
+
+  .quizPage .container {
+    gap: 0px
+  }
+
+  .quizzes .container{
+    padding-left: 0px !important;
+  }
+
+  .welcome .container {
+    padding-left: 10px!important;
+  }
+  
+  .quizPage p {
+    margin-bottom: 5px;
+  }
+
+  .welcome p {
+    margin-bottom: 5px;
+  }
+
+  .welcome div {
+    padding-bottom: 0px !important;
+  }
+
+  .welcome div:nth-child(2){
+    padding-left: 20px;
+    padding: 0px;
+  }
+  .quizzes div:nth-child(1){
+    padding-left: 10px;
+    padding-bottom: 0px !important;
+  }
+}
+ 

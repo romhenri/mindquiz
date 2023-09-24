@@ -6,8 +6,9 @@ const QuizPage = () => {
   const navigate = useNavigate()
 
   const general1 = () => {
-    navigate("/quiz/general1")
-  }
+    navigate("/quiz/general1")}
+  const general2 = () => {
+    navigate("/quiz/general2")}
 
   return (
     <main className='quizPage'>
@@ -26,12 +27,12 @@ const QuizPage = () => {
         <div className="container">
           <div className="quizCard" onClick={general1}>
             <h3>General 1</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, nisi!</p>
+            <p>Easy general knowledge questions.</p>
           </div>
 
-          <div className="quizCard" onClick={general1}>
-            <h3>General 1</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, nisi!</p>
+          <div className="quizCard" onClick={general2}>
+            <h3>General 2</h3>
+            <p>Easy general knowledge questions.</p>
           </div>
         </div>
     </main>

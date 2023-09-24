@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../css/Questions.css';
+import '../css/Quiz.css';
 import general1 from './general1.json';
+import general2 from './general2.json';
 
 var score = 0
 var numberOfQuestions
@@ -15,10 +16,14 @@ class RadioForm extends Component {
     switch (this.props.data) {
       case 'general1':
         this.dataJSON = general1;
-        console.log("sucess");
+        console.log("Quiz General 2");
+        break;
+      case 'general2':
+        this.dataJSON = general2;
+        console.log("Quiz General 2");
         break;
       default:
-        console.log("fail");
+        console.log("No Found Quiz");
     }
 
   }

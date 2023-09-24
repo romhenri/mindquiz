@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Who is known as the 'Father of Modern Physics'?",
+    "options": [
+      { "id": "a", "text": "Isaac Newton" },
+      { "id": "b", "text": "Albert Einstein" },
+      { "id": "c", "text": "Galileo Galilei" },
+      { "id": "d", "text": "Stephen Hawking" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "What is the chemical symbol for oxygen?",
+    "options": [
+      { "id": "a", "text": "O2" },
+      { "id": "b", "text": "Ox" },
+      { "id": "c", "text": "Oxg" },
+      { "id": "d", "text": "Oz" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": [
+      { "id": "a", "text": "Oxygen" },
+      { "id": "b", "text": "Carbon dioxide" },
+      { "id": "c", "text": "Nitrogen" },
+      { "id": "d", "text": "Hydrogen" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest ocean in the world?",
+    "options": [
+      { "id": "a", "text": "Atlantic Ocean" },
+      { "id": "b", "text": "Indian Ocean" },
+      { "id": "c", "text": "Arctic Ocean" },
+      { "id": "d", "text": "Pacific Ocean" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of Canada?",
+    "options": [
+      { "id": "a", "text": "Toronto" },
+      { "id": "b", "text": "Montreal" },
+      { "id": "c", "text": "Vancouver" },
+      { "id": "d", "text": "Ottawa" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 7,
+    "question": "What is the largest bone in the human body?",
+    "options": [
+      { "id": "a", "text": "Femur" },
+      { "id": "b", "text": "Radius" },
+      { "id": "c", "text": "Tibia" },
+      { "id": "d", "text": "Humerus" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "What is the capital of Australia?",
+    "options": [
+      { "id": "a", "text": "Sydney" },
+      { "id": "b", "text": "Melbourne" },
+      { "id": "c", "text": "Canberra" },
+      { "id": "d", "text": "Brisbane" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 9,
+    "question": "What is the largest desert in the world?",
+    "options": [
+      { "id": "a", "text": "Gobi Desert" },
+      { "id": "b", "text": "Sahara Desert" },
+      { "id": "c", "text": "Mojave Desert" },
+      { "id": "d", "text": "Atacama Desert" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "Which gas makes up the majority of Earth's atmosphere?",
+    "options": [
+      { "id": "a", "text": "Oxygen" },
+      { "id": "b", "text": "Carbon dioxide" },
+      { "id": "c", "text": "Nitrogen" },
+      { "id": "d", "text": "Hydrogen" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 10,
+    "question": "What is the largest continent in the world?",
+    "options": [
+      { "id": "a", "text": "Africa" },
+      { "id": "b", "text": "North America" },
+      { "id": "c", "text": "Asia" },
+      { "id": "d", "text": "Europe" }
+    ],
+    "answer": "c"
+  }
+]

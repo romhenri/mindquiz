@@ -7,7 +7,7 @@
   background-color: #212370 !important;
   margin: 20px auto;
   padding: 20px 30px;
-  gap: 10px;
+  /* gap: 10px; */
   border-radius: 10px;
   max-width: 1080px;
 
@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  font-size: .8em;
 }
 
 .navbar a {
@@ -23,12 +24,17 @@
   text-decoration: none;
 }
 
+.navbar nav a.active {
+  background-color: #171a57;
+  border-radius: 10px;
+}
+
 .navbar nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 50px;
+  gap: 20px;
   border-radius: 10px;
 }
 
@@ -41,18 +47,20 @@
 }
 
 @media (max-width: 960px) {
+  
   .navbar {
     border-radius: 0px;
     margin-top: 0px;
-    padding-top: 20px;
+    padding: 20px 30px 10px;
   }
 
-  .navbar nav {
-    padding: 10px;
+  .navbar nav a {
+    padding: 10px 20px;
   }
 
   .navbar h1 {
     margin: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   section {

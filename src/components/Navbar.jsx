@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 // import Button from './Button'
-import styles from '../css/Navbar.module.css'
+import '../css/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar}>
+    <div className="navbar">
 
       <h1><span>Mind</span>Quiz</h1>
       
