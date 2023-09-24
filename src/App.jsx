@@ -17,8 +17,11 @@ function App() {
           <Route path='/' element={<HomePage/>}/>
           <Route path='quiz'>
             <Route index element={<QuizPage/>}/>
+            
+            <Route path='general1' 
+              element={<Quiz title="General 1" data="general1"/>}/>
+
             <Route path='*' element={<Quiz/>}>
-              {/* <Route path='*' element={<Question/>}/> */}
             </Route>
           </Route>
           <Route path='about' element={<main>

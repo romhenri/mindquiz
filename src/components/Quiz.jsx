@@ -2,14 +2,14 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import  Question  from './Question'
 
-const Quiz = ({data}) => {
+const Quiz = ({title, data}) => {
   return (
     <section>
       <div>
-        {data ? data : 'Title'}
+        {title ? title : 'Title'}
       </div>
 
-      <Question />
+      <Question data={data}/>
     </section>
   )
 }

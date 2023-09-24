@@ -6,7 +6,7 @@ const QuizPage = () => {
   const navigate = useNavigate()
 
   const general1 = () => {
-    navigate("/quiz/test")
+    navigate("/quiz/general1")
   }
 
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Questions.css';
-import dataJSON from './test.json';
+import general1 from './general1.json';
 
 var score = 0
 var numberOfQuestions
@@ -12,6 +12,15 @@ class RadioForm extends Component {
       currentQuestionIndex: 0,
       selectedOption: null, // Default value
     };
+    switch (this.props.data) {
+      case 'general1':
+        this.dataJSON = general1;
+        console.log("sucess");
+        break;
+      default:
+        console.log("fail");
+    }
+
   }
 
   handleOptionChange = (event) => {
@@ -25,8 +34,8 @@ class RadioForm extends Component {
     const selectedValue = this.state.selectedOption;
     console.log('Selected:', selectedValue);
 
-    const currentQuestion = dataJSON[this.state.currentQuestionIndex];
-    numberOfQuestions = dataJSON.length;
+    const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
+    numberOfQuestions = this.dataJSON.length;
 
     if (selectedValue == currentQuestion.answer) {
       score++;
@@ -41,7 +50,7 @@ class RadioForm extends Component {
   };
 
   render() {
-    const currentQuestion = dataJSON[this.state.currentQuestionIndex];
+    const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
 
     if (!currentQuestion) {
       var rate = (score / numberOfQuestions) * 100
