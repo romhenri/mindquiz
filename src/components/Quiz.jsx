@@ -1,15 +1,17 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import  Question  from './Question'
 
-const Question = ({title}) => {
+const Quiz = ({data}) => {
   return (
     <section>
       <div>
-        {title ? title : 'Title'}
+        {data ? data : 'Title'}
       </div>
-      <Outlet/>
+
+      <Question />
     </section>
   )
 }
 
-export default Question
+export default Quiz

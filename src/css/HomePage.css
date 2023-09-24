@@ -2,7 +2,6 @@
   padding-bottom: 0px;
 }
 
-
 .welcome div:nth-child(2){
   padding-left: 30px;
 }
@@ -16,15 +15,15 @@
   flex-direction: row;
 }
 
-.container div{
-  flex-grow: 1;
-  flex-basis: 0;
-  flex-shrink: initial;
-  overflow: hidden;
+/* 6981BA */
+
+.container img {
+  height: 250px;
 }
 
+.container div
 .welcome .container div img{
-  position: relative;
+  max-width: 200px;
 }
 
 .welcome .container div:nth-child(2),
@@ -33,7 +32,9 @@
   flex-direction: column;
   justify-content: center;
   padding-bottom: 20px;
-  flex-grow: 1.5;
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-shrink: initial;
 }
 
 @media (max-width: 768px) {

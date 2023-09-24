@@ -18,7 +18,7 @@ function App() {
           <Route path='quiz'>
             <Route index element={<QuizPage/>}/>
             <Route path='*' element={<Quiz/>}>
-              <Route path='*' element={<Question/>}/>
+              {/* <Route path='*' element={<Question/>}/> */}
             </Route>
           </Route>
           <Route path='about' element={<main>
@@ -39,12 +39,3 @@ function App() {
 }
 
 export default App
-
-
-// <Route path='*' element={
-//               <section>
-//                 <h2>Quiz não Encontrado!</h2>
-//                 <p>Lamentamos mas o quiz específicado não foi encontrado.</p>
-
-//                 <NavLink to="quiz">Voltar</NavLink>
-//               </section>}/>

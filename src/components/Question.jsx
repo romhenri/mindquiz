@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Questions.css';
+import '../css/Questions.css';
 import dataJSON from './test.json';
 
 var score = 0

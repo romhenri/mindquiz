@@ -6,7 +6,7 @@
 
   background-color: #212370 !important;
   margin: 20px auto;
-  padding: 10px 30px;
+  padding: 20px 30px;
   gap: 10px;
   border-radius: 10px;
   max-width: 1080px;
@@ -40,14 +40,15 @@
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .navbar {
-    border-radius: 0px !important;
-    margin-top: 0px !important;
+    border-radius: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
   }
 
   .navbar nav {
-    padding: 10px !important;
+    padding: 10px;
   }
 
   .navbar h1 {

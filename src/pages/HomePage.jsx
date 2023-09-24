@@ -1,6 +1,6 @@
 import React from 'react'
-import womanThinking from '../assets/woman-thinking-bro.svg';
-import styles from './HomePage.css'
+import womanThinking from '../assets/woman-thinking-bro.png';
+import styles from '../css/HomePage.css'
 
 const HomePage = () => {
   return (
@@ -12,7 +12,7 @@ const HomePage = () => {
           </div>
           <div>
             <h2>Welcome!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem exercitationem reprehenderit ipsa quasi dignissimos excepturi fugit. Eaque, beatae harum aspernatur quisquam illo laboriosam repellat eligendi ea excepturi expedita omnis! Sed!</p>
+            <p>MindQuiz - where knowledge meets fun! Explore a world of diverse quizzes, challenge friends, and expand your horizons, all while having a great time. Join us on this exciting journey of learning and entertainment. Welcome to MindQuiz!</p>
           </div>
         </div>
       </section>
