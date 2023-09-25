@@ -7,6 +7,7 @@ var score = 0
 var numberOfQuestions
 
 class RadioForm extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -39,6 +40,15 @@ class RadioForm extends Component {
 
   handleConfirm = () => {
     const selectedValue = this.state.selectedOption;
+    const btnConfirm = document.getElementById('btnConfirm');
+
+    if (!selectedValue) {
+      btnConfirm.textContent = "Please, choose a option to continue!"
+      return
+    } else {
+      btnConfirm.textContent = "Continue"
+    }
+
     console.log('Selected:', selectedValue);
 
     const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
@@ -57,6 +67,7 @@ class RadioForm extends Component {
   };
 
   render() {
+    
     const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
 
     if (!currentQuestion) {
@@ -139,9 +150,10 @@ class RadioForm extends Component {
         </div>
 
         <div className='buttonsLine'>
-         <button onClick={
+         <button id='btnConfirm' onClick={
           this.handleConfirm
-          }>Confirm
+          }>
+            Confirm
           </button>
         </div>
       </div>
