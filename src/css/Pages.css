@@ -52,6 +52,10 @@
     gap: 0px
   }
 
+  .quizPage .quizzes .container {
+    gap: 10px
+  }
+
   .quizzes .container{
     padding-left: 0px !important;
   }
@@ -79,6 +83,10 @@
   .quizzes div:nth-child(1){
     padding-left: 10px;
     padding-bottom: 0px !important;
+  }
+
+  .about-page div {
+    padding-left: 10px;
   }
 }
  

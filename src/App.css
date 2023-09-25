@@ -52,7 +52,7 @@ button:hover {
 
 section {
   padding: 20px;
-  margin: 20px auto;
+  margin: 10px auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 10px;
   max-width: 1080px;
@@ -68,14 +68,6 @@ section {
   border: 2px solid #d1d1d100;
   cursor: pointer;
   flex-grow: 1;
-}
-
-.quizPage .container {
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 1080px;
 }
 
 .quizCard:hover {border: 2px solid #6981BA;}

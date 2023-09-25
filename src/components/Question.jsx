@@ -13,6 +13,8 @@ class RadioForm extends Component {
       currentQuestionIndex: 0,
       selectedOption: null, // Default value
     };
+    score = 0
+
     switch (this.props.data) {
       case 'general1':
         this.dataJSON = general1;

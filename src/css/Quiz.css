@@ -28,3 +28,11 @@
   scale: 95%;
   transition: .3s;
 }
+
+.quizPage .container {
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1080px;
+}

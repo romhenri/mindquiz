@@ -2,16 +2,18 @@ import React from 'react'
 import womanThinking from '../assets/woman-thinking-bro.png';
 import '../css/Pages.css'
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
-    <main>
-            <section>
+    <main className='about-page'> 
+          <section>
+            <div> 
               <h2>AboutPage</h2>
 
               <p>MindQuiz is your destination for engaging quizzes that cover a wide range of topics. Test your knowledge, challenge your friends, and have fun along the way. Whether you're a trivia pro or just looking for a good time, MindQuiz has quizzes that suit all levels. Join us in the world of quizzes and see how much you know!.</p>
-            </section>
+            </div>
+          </section>
         </main>
   )
 }
 
-export default HomePage
+export default AboutPage
