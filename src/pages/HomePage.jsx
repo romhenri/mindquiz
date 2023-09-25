@@ -5,7 +5,7 @@ import '../css/Pages.css'
 const HomePage = () => {
   return (
     <main>
-      <section className='welcome'>
+      <section className='welcome-section'>
         <div className='container'>
           <div>
             <img src={womanThinking} alt="" />

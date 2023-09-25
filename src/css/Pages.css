@@ -1,8 +1,18 @@
-.welcome, .quizzes {
+/*
+
+PAGES:
+home-page, quiz-page, about-page.
+
+SECTIONS:
+welcome-section, quizzes-sections, about-section.
+
+*/
+
+.welcome-section, .quizzes {
   padding-bottom: 0px;
 }
 
-.welcome div:nth-child(2){
+.welcome-section div:nth-child(2){
   padding-left: 30px;
 }
 .quizzes div:nth-child(1){
@@ -22,11 +32,11 @@
 }
 
 .container div
-.welcome .container div img{
+.welcome-section .container div img{
   max-width: 200px;
 }
 
-.welcome .container div:nth-child(2),
+.welcome-section .container div:nth-child(2),
 .quizzes .container div:nth-child(1){
   display: flex;
   flex-direction: column;
@@ -44,7 +54,7 @@
     align-items: center;
   }
 
-  .welcome .container {
+  .welcome-section .container {
     flex-direction: column-reverse;
   }
 
@@ -60,7 +70,7 @@
     padding-left: 0px !important;
   }
 
-  .welcome .container {
+  .welcome-section .container {
     padding-left: 10px!important;
   }
   
@@ -68,15 +78,15 @@
     margin-bottom: 5px;
   }
 
-  .welcome p {
+  .welcome-section p {
     margin-bottom: 5px;
   }
 
-  .welcome div {
+  .welcome-section div {
     padding-bottom: 0px !important;
   }
 
-  .welcome div:nth-child(2){
+  .welcome-section div:nth-child(2){
     padding-left: 20px;
     padding: 0px;
   }
