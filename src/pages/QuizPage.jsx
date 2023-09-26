@@ -5,12 +5,10 @@ import manThinking from '../assets/man-thinking-bro.png'
 const QuizPage = () => {
   const navigate = useNavigate()
 
-  const general1 = () => {
-    navigate("/quiz/general1")}
-  const general2 = () => {
-    navigate("/quiz/general2")}
-  const programming1 = () => {
-    navigate("/quiz/programming1")}
+  const general1 = () => {navigate("/quiz/general1")}
+  const general2 = () => {navigate("/quiz/general2")}
+  const programming1 = () => {navigate("/quiz/programming1")}
+  const programming2 = () => {navigate("/quiz/programming2")}
 
   return (
     <main className='quizPage'>
@@ -40,6 +38,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={programming1}>
             <h3>Programming 1</h3>
             <p>Easy general programming questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={programming2}>
+            <h3>Programming 2</h3>
+            <p>Intermediate-level general programming questions.</p>
           </div>
         </div>
     </main>

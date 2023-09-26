@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Which language runs in a web browser?",
+    "options": [
+      { "id": "a", "text": "Java" },
+      { "id": "b", "text": "C" },
+      { "id": "c", "text": "Python" },
+      { "id": "d", "text": "JavaScript" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 2,
+    "question": "What does CSS stand for?",
+    "options": [
+      { "id": "a", "text": "Central Style Sheets" },
+      { "id": "b", "text": "Cascading Style Sheets" },
+      { "id": "c", "text": "Cascading Simple Sheets" },
+      { "id": "d", "text": "Cars SUVs Sailboats" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "What does HTML stand for?",
+    "options": [
+      { "id": "a", "text": "Hypertext Markup Language" },
+      { "id": "b", "text": "Hypertext Markdown Language" },
+      { "id": "c", "text": "Hyperloop Machine Language" },
+      { "id": "d", "text": "Helicopters Terminals Motorboats Lamborginis" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "What does the term \"API\" stand for in web development?",
+    "options": [
+      { "id": "a", "text": "Application Programming Interface" },
+      { "id": "b", "text": "Advanced Programming Interface" },
+      { "id": "c", "text": "Automated Program Integration" },
+      { "id": "d", "text": "Application Process Improvement" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Which JavaScript framework is developed by Google and is designed for building dynamic, single-page web applications?",
+    "options": [
+      { "id": "a", "text": "React" },
+      { "id": "b", "text": "Angular" },
+      { "id": "c", "text": "Django" },
+      { "id": "d", "text": "Vue.js" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What does the term \"HTTP\" stand for in web development?",
+    "options": [
+      { "id": "a", "text": "Hypertext Transfer Protocol" },
+      { "id": "b", "text": "Hyperlink Text Transport" },
+      { "id": "c", "text": "Hypermedia Transfer Process" },
+      { "id": "d", "text": "Hypertext Tracking Protocol" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is NOT a commonly used web development framework?",
+    "options": [
+      { "id": "a", "text": "React" },
+      { "id": "b", "text": "Django" },
+      { "id": "c", "text": "Angular" },
+      { "id": "d", "text": "MySQL" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 8,
+    "question": "Which HTTP method is used to retrieve data from a server in a web application?",
+    "options": [
+      { "id": "a", "text": "GET" },
+      { "id": "b", "text": "POST" },
+      { "id": "c", "text": "PUT" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Which HTTP status code indicates a successful request in web development?",
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "404" },
+      { "id": "c", "text": "500" },
+      { "id": "d", "text": "302" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is NOT a commonly used front-end framework for web development?",
+    "options": [
+      { "id": "a", "text": "React" },
+      { "id": "b", "text": "Angular" },
+      { "id": "c", "text": "Django" },
+      { "id": "d", "text": "Vue.js" }
+    ],
+    "answer": "c"
+  }
+]

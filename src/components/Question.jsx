@@ -4,6 +4,7 @@ import '../css/Quiz.css';
 import general1 from './general1.json';
 import general2 from './general2.json';
 import programming1 from './programming1.json';
+import programming2 from './programming2.json';
 
 var score = 0
 var numberOfQuestions
@@ -29,6 +30,10 @@ class RadioForm extends Component {
       case 'programming1':
         this.dataJSON = programming1;
         console.log("Programming 1");
+        break;
+      case 'programming2':
+        this.dataJSON = programming2;
+        console.log("Programming 2");
         break;
       default:
         console.log("No Found Quiz");
