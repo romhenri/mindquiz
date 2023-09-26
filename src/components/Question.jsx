@@ -3,6 +3,7 @@ import ConclusionPage from '../pages/ConclusionPage.jsx'
 import '../css/Quiz.css';
 import general1 from './general1.json';
 import general2 from './general2.json';
+import programming1 from './programming1.json';
 
 var score = 0
 var numberOfQuestions
@@ -24,6 +25,10 @@ class RadioForm extends Component {
       case 'general2':
         this.dataJSON = general2;
         console.log("Quiz General 2");
+        break;
+      case 'programming1':
+        this.dataJSON = programming1;
+        console.log("Programming 1");
         break;
       default:
         console.log("No Found Quiz");
@@ -94,9 +99,10 @@ class RadioForm extends Component {
         <div className="option">
           <input
             type="radio"
-            name="Option"
+            name="Option" 
             id="a"
             value="a"
+            tabIndex="0"
             checked={this.state.selectedOption === 'a'}
             onChange={this.handleOptionChange}
           />
@@ -111,6 +117,7 @@ class RadioForm extends Component {
             name="Option"
             id="b"
             value="b"
+            tabIndex="1"
             checked={this.state.selectedOption === 'b'}
             onChange={this.handleOptionChange}
           />
@@ -125,6 +132,7 @@ class RadioForm extends Component {
             name="Option"
             id="c"
             value="c"
+            tabIndex="2"
             checked={this.state.selectedOption === 'c'}
             onChange={this.handleOptionChange}
           />
@@ -139,6 +147,7 @@ class RadioForm extends Component {
             name="Option"
             id="d"
             value="d"
+            tabIndex="3"
             checked={this.state.selectedOption === 'd'}
             onChange={this.handleOptionChange}
           />

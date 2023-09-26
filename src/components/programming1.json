@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      { "id": "a", "text": "Hyperlink Text Markup Language" },
+      { "id": "b", "text": "Hypertext Transfer Protocol" },
+      { "id": "c", "text": "Hyper Text Makeup Language" },
+      { "id": "d", "text": "Hypertext Markup Language" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 2,
+    "question": "Which programming language is known for its use in building web applications and is often called the 'scripting language for the web'?",
+    "options": [
+      { "id": "a", "text": "Java" },
+      { "id": "b", "text": "Python" },
+      { "id": "c", "text": "Ruby" },
+      { "id": "d", "text": "JavaScript" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 3,
+    "question": "What is the main purpose of a 'for loop' in programming?",
+    "options": [
+      { "id": "a", "text": "To define a function" },
+      { "id": "b", "text": "To create an array" },
+      { "id": "c", "text": "To iterate over a sequence of values" },
+      { "id": "d", "text": "To style web pages" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 4,
+    "question": "What is the term for a named sequence of statements that can be executed in a program?",
+    "options": [
+    { "id": "a", "text": "Variable" },
+    { "id": "b", "text": "Loop" },
+    { "id": "c", "text": "Function" },
+    { "id": "d", "text": "Class" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 5,
+    "question": "What is the term for the region in a program where a variable is accessible and can be used?",
+    "options": [
+    { "id": "a", "text": "Declaration" },
+    { "id": "b", "text": "Definition" },
+    { "id": "c", "text": "Scope" },
+    { "id": "d", "text": "Assignment" }
+    ],
+    "answer": "c"
+    },
+    {
+      "id": 5,
+      "question": "What does 'API' stand for in programming?",
+      "options": [
+        { "id": "a", "text": "Application Programming Interface" },
+        { "id": "b", "text": "Advanced Programming Integration" },
+        { "id": "c", "text": "Automated Programming Interface" },
+        { "id": "d", "text": "Application Program Interaction" }
+      ],
+      "answer": "a"
+    },
+  {
+    "id": 6,
+    "question": "What does the acronym 'SQL' stand for in the context of databases?",
+    "options": [
+      { "id": "a", "text": "Structured Query Language" },
+      { "id": "b", "text": "Sequential Query Language" },
+      { "id": "c", "text": "System Query Language" },
+      { "id": "d", "text": "Simple Query Language" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "What is the term for a named storage location in a program where data can be stored and retrieved?",
+    "options": [
+      { "id": "a", "text": "Variable" },
+      { "id": "b", "text": "Function" },
+      { "id": "c", "text": "Loop" },
+      { "id": "d", "text": "Array" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "What does the term 'IDE' stand for in programming?",
+    "options": [
+      { "id": "a", "text": "Integrated Development Environment" },
+      { "id": "b", "text": "Interactive Development Environment" },
+      { "id": "c", "text": "Interface Design Enhancement" },
+      { "id": "d", "text": "International Data Exchange" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "What is variable shadowing in programming?",
+    "options": [
+    { "id": "a", "text": "A variable that is defined within a function and is only accessible inside that function." },
+    { "id": "b", "text": "A situation where a variable declared in a local scope has the same name as a variable in a higher scope, effectively hiding the higher-level variable." },
+    { "id": "c", "text": "A variable that is accessible globally and can be used in any part of the program." },
+    { "id": "d", "text": "A variable that has not been initialized with a value." }
+    ],
+    "answer": "b"
+    },
+  {
+    "id": 10,
+    "question": "Which programming language is often used for data analysis, scientific computing, and machine learning, and is known for its simplicity and readability?",
+    "options": [
+      { "id": "a", "text": "Java" },
+      { "id": "b", "text": "Python" },
+      { "id": "c", "text": "C++" },
+      { "id": "d", "text": "Ruby" }
+    ],
+    "answer": "b"
+  }
+]

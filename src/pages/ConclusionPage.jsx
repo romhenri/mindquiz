@@ -10,7 +10,7 @@ const ConclusionPage = ( {rate}) => {
     <div>
         <h2>Accuracy {rate}%</h2>
         <div className='buttonsLine'>
-          <button onClick={returnHome}>Retornar</button>
+          <button onClick={returnHome}>Return</button>
         </div>
     </div>
   )
