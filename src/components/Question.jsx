@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, useNavigate  } from 'react';
+import ConclusionPage from '../pages/ConclusionPage.jsx'
 import '../css/Quiz.css';
 import general1 from './general1.json';
 import general2 from './general2.json';
@@ -7,7 +8,6 @@ var score = 0
 var numberOfQuestions
 
 class RadioForm extends Component {
-  
   constructor(props) {
     super(props);
     this.state = {
@@ -84,9 +84,7 @@ class RadioForm extends Component {
       }
 
       // End
-      return <div>
-        <h2>{rate}%</h2>
-      </div>;
+      return <ConclusionPage rate={rate}/>
     } 
 
     return (
