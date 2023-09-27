@@ -16,7 +16,9 @@ const AboutPage = () => {
             <div> 
               <h2>Original Idea</h2>
 
-              <p>MindQuiz originates from an older website created as part of the '50 Projects 50 Days' challenge. On day 46, the objective was a Quiz App about programming.</p>
+              <p>
+                MindQuiz originates from an older website created as part of the '50 Projects 50 Days' challenge. On day 46, the objective was a Quiz App about programming.
+              </p>
 
               <p>
                 <a href="https://romhenri.github.io/50projects50days/day-46/" target="_blank" rel="noopener noreferrer">
