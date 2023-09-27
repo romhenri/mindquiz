@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is a JavaScript closure and how is it used in practice?",
+    "options": [
+      { "id": "a", "text": "A closure is a function that is closed for further modifications" },
+      { "id": "b", "text": "A closure is a function that has access to its outer function's variables, even after the outer function has completed execution" },
+      { "id": "c", "text": "A closure is a function that can only be used once" },
+      { "id": "d", "text": "A closure is a built-in JavaScript feature for error handling" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Explain the concept of 'hoisting' in JavaScript and provide an example.",
+    "options": [
+      { "id": "a", "text": "Hoisting is the process of lifting heavy objects in JavaScript" },
+      { "id": "b", "text": "Hoisting is a way to hide variables from global scope" },
+      { "id": "c", "text": "Hoisting is the automatic moving of variable and function declarations to the top of their containing scope, and it can lead to unexpected behavior" },
+      { "id": "d", "text": "Hoisting is a feature for creating animations in web development" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "options": [
+      { "id": "a", "text": "They are the same and can be used interchangeably" },
+      { "id": "b", "text": "'null' represents an intentional absence of any object value, while 'undefined' indicates that a variable has been declared but has not been assigned a value" },
+      { "id": "c", "text": "'undefined' represents a null value, while 'null' represents an undefined value" },
+      { "id": "d", "text": "'null' is used for numbers, while 'undefined' is used for strings" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "What is event delegation in JavaScript, and why is it useful?",
+    "options": [
+      { "id": "a", "text": "It is a way to delegate events to a third-party library" },
+      { "id": "b", "text": "It is a technique for handling events by delegating them to a single common ancestor element, which is useful for efficiently handling events on multiple elements" },
+      { "id": "c", "text": "It is a method for preventing events from propagating in the DOM" },
+      { "id": "d", "text": "It is a way to delegate the control of the code execution to another developer" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "Explain what 'async/await' is in JavaScript and how it differs from using Promises.",
+    "options": [
+      { "id": "a", "text": "Async/await is a way to write asynchronous code that looks synchronous, while Promises are a more traditional way to handle asynchronous operations" },
+      { "id": "b", "text": "Async/await is a deprecated feature in JavaScript, and Promises are the recommended way to handle asynchronous operations" },
+      { "id": "c", "text": "Async/await is used for debugging, while Promises are used for production code" },
+      { "id": "d", "text": "Async/await and Promises are identical and can be used interchangeably" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 6,
+    "question": "What is the 'this' keyword in JavaScript, and how does its value change in different contexts?",
+    "options": [
+      { "id": "a", "text": "The 'this' keyword refers to the current time and date in JavaScript" },
+      { "id": "b", "text": "The 'this' keyword always refers to the global object" },
+      { "id": "c", "text": "The 'this' keyword refers to the current object or context and its value can change based on how a function is called" },
+      { "id": "d", "text": "The 'this' keyword is a reserved keyword in JavaScript but has no specific purpose" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the JavaScript 'map' function, and how does it work?",
+    "options": [
+      { "id": "a", "text": "The 'map' function is used for drawing maps on a webpage" },
+      { "id": "b", "text": "The 'map' function is used to create a new array by applying a function to each element of an existing array" },
+      { "id": "c", "text": "The 'map' function is used to find the location of a specific element in an array" },
+      { "id": "d", "text": "The 'map' function is used to create interactive maps for websites" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "What is a JavaScript 'constructor' function, and how is it used to create objects?",
+    "options": [
+      { "id": "a", "text": "A constructor function is used to destruct objects in JavaScript" },
+      { "id": "b", "text": "A constructor function is used to create instances of objects, and it sets the initial state of those objects using the 'this' keyword" },
+      { "id": "c", "text": "A constructor function is used to convert numbers to strings" },
+      { "id": "d", "text": "A constructor function is used to create random numbers" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the 'Array.prototype.forEach()' method in JavaScript?",
+    "options": [
+      { "id": "a", "text": "To create a new array with the specified elements" },
+      { "id": "b", "text": "To iterate over each element of an array and execute a provided function once for each element" },
+      { "id": "c", "text": "To sort the elements of an array" },
+      { "id": "d", "text": "To remove elements from an array" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "What does the 'typeof' operator in JavaScript return?",
+    "options": [
+      { "id": "a", "text": "The type of a variable or expression" },
+      { "id": "b", "text": "The value of a variable or expression" },
+      { "id": "c", "text": "The length of a string" },
+      { "id": "d", "text": "A boolean value" }
+    ],
+    "answer": "a"
+  }
+]

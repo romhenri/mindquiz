@@ -11,6 +11,7 @@ const QuizPage = () => {
   const programming2 = () => {navigate("/quiz/programming2")}
   const javascript1 = () => {navigate("/quiz/javascript1")}
   const javascript2 = () => {navigate("/quiz/javascript2")}
+  const javascript3 = () => {navigate("/quiz/javascript3")}
 
   return (
     <main className='quizPage'>
@@ -55,6 +56,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={javascript2}>
             <h3>JavaScript 2</h3>
             <p>Easy JavaScript questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={javascript3}>
+            <h3>JavaScript 3</h3>
+            <p>Intermediate-level JavaScript questions.</p>
           </div>
         </div>
     </main>
