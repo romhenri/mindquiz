@@ -1,5 +1,9 @@
 [
   {
+    "name": "javascript3",
+    "title": "JavaScript 3"
+  },
+  {
     "id": 1,
     "question": "What is a JavaScript closure and how is it used in practice?",
     "options": [

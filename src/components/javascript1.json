@@ -1,5 +1,9 @@
 [
   {
+    "name": "javascript1",
+    "title": "JavaScript 1"
+  },
+  {
     "id": 1,
     "question": "What is JavaScript primarily used for?",
     "options": [

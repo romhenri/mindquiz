@@ -13,12 +13,15 @@ import python1 from './python1.json';
 var score = 0
 var numberOfQuestions
 
+// "answers": ["b", "a", "c", "a", "b", "b", "d", "a", "c", "b"]
+
 class RadioForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentQuestionIndex: 0,
+      currentQuestionIndex: 1, // Current Question
       selectedOption: null, // Default value
+      answers: []
     };
     score = 0
 
@@ -70,6 +73,7 @@ class RadioForm extends Component {
 
   handleConfirm = () => {
     const selectedValue = this.state.selectedOption;
+    
     const btnConfirm = document.getElementById('btnConfirm');
 
     if (!selectedValue) {
@@ -77,12 +81,14 @@ class RadioForm extends Component {
       return
     } else {
       btnConfirm.textContent = "Continue"
+      this.state.answers.push(selectedValue);
+      console.log(this.state.answers);
     }
 
     console.log('Selected:', selectedValue);
 
     const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
-    numberOfQuestions = this.dataJSON.length;
+    numberOfQuestions = (this.dataJSON.length)-1;
 
     if (selectedValue == currentQuestion.answer) {
       score++;
@@ -97,24 +103,14 @@ class RadioForm extends Component {
   };
 
   render() {
-    
     const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
 
     if (!currentQuestion) {
-      var rate = (score / numberOfQuestions) * 100
-
-      if (rate >  90) {
-        console.log('green');
-      } else if (rate > 80) {
-        console.log('dark green');
-      } else if (rate > 70) {
-        console.log('yellow');
-      } else {
-        console.log('red');
-      }
+      var rate = Math.round((score / numberOfQuestions) * 100)
 
       // End
-      return <ConclusionPage rate={rate}/>
+      return <ConclusionPage 
+      data={this.dataJSON} answers={this.state.answers} rate={rate}/>
     } 
 
     return (

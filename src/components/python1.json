@@ -1,5 +1,9 @@
 [
   {
+    "name": "python1",
+    "title": "Python 1"
+  },
+  {
     "id": 1,
     "question": "What does the 'print' function do in Python?",
     "options": [

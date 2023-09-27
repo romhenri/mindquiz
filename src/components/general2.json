@@ -1,5 +1,9 @@
 [
   {
+    "name": "general2",
+    "title": "General 2"
+  },
+  {
     "id": 1,
     "question": "Who is known as the 'Father of Modern Physics'?",
     "options": [
