@@ -22,13 +22,13 @@
     "answer": "d"
   },
   {
-    "id": 13,
-    "question": "What does the 'return' statement do in a JavaScript function?",
+    "id": 1,
+    "question": "What is the file extension for JavaScript files?",
     "options": [
-      { "id": "a", "text": "It prints a message to the console" },
-      { "id": "b", "text": "It terminates the function and returns a value" },
-      { "id": "c", "text": "It starts a loop" },
-      { "id": "d", "text": "It defines a new function" }
+      { "id": "a", "text": ".html" },
+      { "id": "b", "text": ".js" },
+      { "id": "c", "text": ".css" },
+      { "id": "d", "text": ".json" }
     ],
     "answer": "b"
   },

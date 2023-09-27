@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does the acronym 'JS' stand for in JavaScript?",
+    "options": [
+      { "id": "a", "text": "Java Syntax" },
+      { "id": "b", "text": "JavaScript" },
+      { "id": "c", "text": "JScript" },
+      { "id": "d", "text": "JustScript" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": [
+      { "id": "a", "text": "var" },
+      { "id": "b", "text": "variable" },
+      { "id": "c", "text": "int" },
+      { "id": "d", "text": "string" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "What is the correct way to write a comment in JavaScript?",
+    "options": [
+      { "id": "a", "text": "//This is a comment" },
+      { "id": "b", "text": "/*This is a comment/" },
+      { "id": "c", "text": "#This is a comment" },
+      { "id": "d", "text": "comment: This is a comment" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "What does the 'return' statement do in a JavaScript function?",
+    "options": [
+      { "id": "a", "text": "It prints a message to the console" },
+      { "id": "b", "text": "It terminates the function and returns a value" },
+      { "id": "c", "text": "It starts a loop" },
+      { "id": "d", "text": "It defines a new function" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "Which function is used to print content to the console in JavaScript?",
+    "options": [
+      { "id": "a", "text": "print()" },
+      { "id": "b", "text": "log()" },
+      { "id": "c", "text": "display()" },
+      { "id": "d", "text": "console.log()" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 6,
+    "question": "What does 'NaN' stand for in JavaScript?",
+    "options": [
+      { "id": "a", "text": "Not a Number" },
+      { "id": "b", "text": "Negative And Null" },
+      { "id": "c", "text": "No Action Needed" },
+      { "id": "d", "text": "New Assignment" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "How do you declare a function in JavaScript?",
+    "options": [
+      { "id": "a", "text": "func myFunction() { }" },
+      { "id": "b", "text": "function = myFunction() { }" },
+      { "id": "c", "text": "function myFunction() { }" },
+      { "id": "d", "text": "myFunction() { }" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "Which data type represents whole numbers in JavaScript?",
+    "options": [
+      { "id": "a", "text": "Float" },
+      { "id": "b", "text": "String" },
+      { "id": "c", "text": "Boolean" },
+      { "id": "d", "text": "Integer" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 9,
+    "question": "What does the 'if' statement do in JavaScript?",
+    "options": [
+      { "id": "a", "text": "It declares a variable" },
+      { "id": "b", "text": "It performs a conditionally executed block of code" },
+      { "id": "c", "text": "It prints content to the console" },
+      { "id": "d", "text": "It defines a function" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "Which operator is used to compare two values for equality in JavaScript?",
+    "options": [
+      { "id": "a", "text": "==" },
+      { "id": "b", "text": "===" },
+      { "id": "c", "text": "!=" },
+      { "id": "d", "text": "!==" }
+    ],
+    "answer": "a"
+  }
+]
