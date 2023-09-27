@@ -8,6 +8,7 @@ import programming2 from './programming2.json';
 import javascript1 from './javascript1.json';
 import javascript2 from './javascript2.json';
 import javascript3 from './javascript3.json';
+import python1 from './python1.json';
 
 var score = 0
 var numberOfQuestions
@@ -49,6 +50,10 @@ class RadioForm extends Component {
       case 'javascript3':
         this.dataJSON = javascript3;
         console.log("Javascript 3");
+        break;
+      case 'python1':
+        this.dataJSON = python1;
+        console.log("Python 1");
         break;
       default:
         console.log("No Found Quiz");

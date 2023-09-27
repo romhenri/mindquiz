@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does the 'print' function do in Python?",
+    "options": [
+      {"id": "a", "text": "Add two numbers"},
+      {"id": "b", "text": "Display text on the screen"},
+      {"id": "c", "text": "Create a new variable"},
+      {"id": "d", "text": "Read a file"}
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      {"id": "a", "text": "func"},
+      {"id": "b", "text": "define"},
+      {"id": "c", "text": "function"},
+      {"id": "d", "text": "def"}
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 3,
+    "question": "Which data type is used to store a decimal number in Python?",
+    "options": [
+      {"id": "a", "text": "int"},
+      {"id": "b", "text": "float"},
+      {"id": "c", "text": "string"},
+      {"id": "d", "text": "boolean"}
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "How do you comment a single line of code in Python?",
+    "options": [
+      {"id": "a", "text": "// This is a comment"},
+      {"id": "b", "text": "/* This is a comment */"},
+      {"id": "c", "text": "# This is a comment"},
+      {"id": "d", "text": "%% This is a comment"}
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 5,
+    "question": "Which loop is used to iterate through a sequence in Python?",
+    "options": [
+      {"id": "a", "text": "if"},
+      {"id": "b", "text": "for"},
+      {"id": "c", "text": "while"},
+      {"id": "d", "text": "switch"}
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What is the result of '2**3' in Python?",
+    "options": [
+      {"id": "a", "text": "6"},
+      {"id": "b", "text": "9"},
+      {"id": "c", "text": "8"},
+      {"id": "d", "text": "16"}
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 7,
+    "question": "In Python, how do you check the number of elements in a list?",
+    "options": [
+      {"id": "a", "text": "count()"},
+      {"id": "b", "text": "elements()"},
+      {"id": "c", "text": "length()"},
+      {"id": "d", "text": "len()"}
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 8,
+    "question": "How do you define an empty dictionary in Python?",
+    "options": [
+      {"id": "a", "text": "empty_dict()"},
+      {"id": "b", "text": "{}"},
+      {"id": "c", "text": "dict()"},
+      {"id": "d", "text": "null_dict()"}
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 9,
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      {"id": "a", "text": "+"},
+      {"id": "b", "text": "-"},
+      {"id": "c", "text": "*"},
+      {"id": "d", "text": "**"}
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 10,
+    "question": "Which keyword is used to exit a loop prematurely in Python?",
+    "options": [
+      {"id": "a", "text": "stop"},
+      {"id": "b", "text": "break"},
+      {"id": "c", "text": "exit"},
+      {"id": "d", "text": "end"}
+    ],
+    "answer": "b"
+  }
+]
