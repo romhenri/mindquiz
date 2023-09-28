@@ -1,18 +1,21 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom';
 
 const Button = ({ text, bg, className, onClick }) => {
-
-	// const handleClick = onClick ? onClick : () => console.log("Sem Função!");
+	const navigate = useNavigate()
+	const returnHome = () => {navigate("/quiz");};
 
 	const handleClick = () => {
 		if (onClick === null) {
+		
+		} else if (onClick === 'returnHome') {
+			navigate("/quiz");
 
    	} else if (onClick) {
 			onClick();
 
 		} else {
-			// console.log(typeof(onClick));
-      console.log("Sem Função Específica!");
+      console.log("No Function!");
     }
   };
 

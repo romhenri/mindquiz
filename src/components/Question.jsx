@@ -1,5 +1,6 @@
-import React, { Component, useNavigate  } from 'react';
+import React, { Component } from 'react';
 import ConclusionPage from '../pages/ConclusionPage.jsx'
+import Button from './Button.jsx'
 import '../css/Quiz.css';
 import general1 from './general1.json';
 import general2 from './general2.json';
@@ -28,39 +29,33 @@ class RadioForm extends Component {
     switch (this.props.data) {
       case 'general1':
         this.dataJSON = general1;
-        console.log("Quiz General 2");
         break;
       case 'general2':
         this.dataJSON = general2;
-        console.log("Quiz General 2");
         break;
       case 'programming1':
         this.dataJSON = programming1;
-        console.log("Programming 1");
         break;
       case 'programming2':
         this.dataJSON = programming2;
-        console.log("Programming 2");
         break;
       case 'javascript1':
         this.dataJSON = javascript1;
-        console.log("Javascript 1");
         break;
       case 'javascript2':
         this.dataJSON = javascript2;
-        console.log("Javascript 2");
         break;
       case 'javascript3':
         this.dataJSON = javascript3;
-        console.log("Javascript 3");
         break;
       case 'python1':
         this.dataJSON = python1;
-        console.log("Python 1");
         break;
       default:
         console.log("No Found Quiz");
     }
+
+    console.log(this.dataJSON[0].title);
 
   }
 
@@ -94,6 +89,23 @@ class RadioForm extends Component {
       score++;
       console.log(score);
     }
+
+    // Next question
+    this.setState((prevState) => ({
+    currentQuestionIndex: prevState.currentQuestionIndex + 1,
+    selectedOption: '',
+  }))
+  };
+
+  handleJump = () => {
+    btnConfirm.textContent = "Continue"
+    this.state.answers.push(null);
+    console.log(this.state.answers);
+
+    console.log('Selected:', null);
+
+    const currentQuestion = this.dataJSON[this.state.currentQuestionIndex];
+    numberOfQuestions = (this.dataJSON.length)-1;
 
     // Next question
     this.setState((prevState) => ({
@@ -182,6 +194,18 @@ class RadioForm extends Component {
           this.handleConfirm
           }>
             Confirm
+          </button>
+        </div>
+
+        <div className='buttonsLine'>
+
+          <Button text='Quit' className='alternative' onClick='returnHome'/>
+
+          <button id='btnConfirm' className='alternative' 
+          onClick={
+            this.handleJump
+            }>
+            Jump
           </button>
         </div>
       </div>

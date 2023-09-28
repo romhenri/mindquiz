@@ -20,15 +20,27 @@
 
 button {
   background-color: #212370 !important;
-  padding: 10px 0px;
+  padding: 13px 0px;
   flex-grow: 1;
+  border: 2px solid #212370 !important;
+}
+
+button.alternative {
+  background-color: #e4e4e4 !important;
+  color: black;
+  border: 2px solid #21247000 !important;
 }
 
 .question button:active {
   scale: 95%;
   transition: .3s;
 }
-    
+
+.question button:hover {
+  transition: .3s;
+  border: 2px solid #212370 !important;
+}
+
 .quizPage .container {
   justify-content: center;
   gap: 10px;
