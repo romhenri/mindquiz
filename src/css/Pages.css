@@ -52,6 +52,10 @@ welcome-section, quizzes-sections, about-section.
   border: 3px solid #a10d0ddc;
 }
 
+.conclusion-page > div, .conclusion-page > h2 {
+  padding: 5px 0px;
+}
+
 .conclusion-page h3 {
   font-size: 1em;
   margin: 5px 0px;
