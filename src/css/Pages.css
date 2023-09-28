@@ -47,6 +47,22 @@ welcome-section, quizzes-sections, about-section.
   flex-shrink: initial;
 }
 
+.conclusion-page section{
+  padding: 20px;
+  border: 3px solid #a10d0ddc;
+}
+
+.conclusion-page h3 {
+  font-size: 1em;
+  margin: 5px 0px;
+}
+
+.conclusion-page .correct {
+  border: 3px solid #0c9b24;
+}
+
+/* ================================== */
+
 @media (max-width: 768px) {
 
   section .container {

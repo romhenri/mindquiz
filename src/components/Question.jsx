@@ -21,7 +21,7 @@ class RadioForm extends Component {
     this.state = {
       currentQuestionIndex: 1, // Current Question
       selectedOption: null, // Default value
-      answers: []
+      answers: [null]
     };
     score = 0
 
@@ -78,7 +78,7 @@ class RadioForm extends Component {
 
     if (!selectedValue) {
       btnConfirm.textContent = "Please, choose a option to continue!"
-      return
+      // return
     } else {
       btnConfirm.textContent = "Continue"
       this.state.answers.push(selectedValue);
