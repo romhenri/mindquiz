@@ -57,10 +57,10 @@ const ConclusionPage = ( { data, answers, rate}) => {
     <main className='conclusion-page'>
         <h2>Accuracy {rate}%</h2>
         
-        <div> Your answers: {answers.slice(1).join(', ')}</div>
+        <div> Your answers: {answers.slice(1).join(', ')}.</div>
 
         <div>
-         Right answers: {data.slice(1).map(item => item.answer).join(', ')}
+         Right answers: {data.slice(1).map(item => item.answer).join(', ')}.
         </div>
 
         {/* <div> Your answers: {answers[1]}, {answers[2]}, {answers[3]}, {answers[4]}, {answers[5]}, {answers[6]}, {answers[7]}, {answers[8]}, {answers[9]}, {answers[10]}.

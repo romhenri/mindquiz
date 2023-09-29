@@ -63,7 +63,8 @@ class RadioForm extends Component {
     this.setState({
       selectedOption: event.target.value,
     });
-    // console.log(event.target.value);
+
+    document.getElementById('btnConfirm').textContent = "Confirm"
   };
 
   handleConfirm = () => {
@@ -75,7 +76,7 @@ class RadioForm extends Component {
       btnConfirm.textContent = "Please, choose a option to continue!"
       return
     } else {
-      btnConfirm.textContent = "Continue"
+      btnConfirm.textContent = "Confirm"
       this.state.answers.push(selectedValue);
       console.log(this.state.answers);
     }
@@ -98,7 +99,7 @@ class RadioForm extends Component {
   };
 
   handleJump = () => {
-    btnConfirm.textContent = "Continue"
+    document.getElementById('btnConfirm').textContent = "Confirm"
     this.state.answers.push(null);
     console.log(this.state.answers);
 

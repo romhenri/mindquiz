@@ -3,7 +3,6 @@ import {useNavigate} from 'react-router-dom';
 
 const Button = ({ text, bg, className, onClick }) => {
 	const navigate = useNavigate()
-	const returnHome = () => {navigate("/quiz");};
 
 	const handleClick = () => {
 		if (onClick === null) {
