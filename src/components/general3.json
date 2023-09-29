@@ -1,0 +1,116 @@
+[
+  {
+    "name": "general3",
+    "title": "General 3"
+  },
+  {
+    "id": 1,
+    "question": "What is the capital of Japan?",
+    "options": [
+      { "id": "a", "text": "Beijing" },
+      { "id": "b", "text": "Seoul" },
+      { "id": "c", "text": "Tokyo" },
+      { "id": "d", "text": "Shanghai" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "What is the largest mammal on land?",
+    "options": [
+      { "id": "a", "text": "Elephant" },
+      { "id": "b", "text": "Giraffe" },
+      { "id": "c", "text": "Hippopotamus" },
+      { "id": "d", "text": "Rhinoceros" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Which gas is responsible for the Earth's ozone layer?",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide" },
+      { "id": "b", "text": "Oxygen" },
+      { "id": "c", "text": "Ozone" },
+      { "id": "d", "text": "Chlorofluorocarbons" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 4,
+    "question": "Which planet is known as the 'Ringed Planet'?",
+    "options": [
+      { "id": "a", "text": "Mars" },
+      { "id": "b", "text": "Venus" },
+      { "id": "c", "text": "Jupiter" },
+      { "id": "d", "text": "Saturn" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 5,
+    "question": "Who was the first President of the United States?",
+    "options": [
+      { "id": "a", "text": "John Adams" },
+      { "id": "b", "text": "Thomas Jefferson" },
+      { "id": "c", "text": "George Washington" },
+      { "id": "d", "text": "Benjamin Franklin" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "What is the smallest prime number?",
+    "options": [
+      { "id": "a", "text": "1" },
+      { "id": "b", "text": "2" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "4" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "Which artist is famous for painting 'The Starry Night'?",
+    "options": [
+      { "id": "a", "text": "Vincent van Gogh" },
+      { "id": "b", "text": "Pablo Picasso" },
+      { "id": "c", "text": "Leonardo da Vinci" },
+      { "id": "d", "text": "Michelangelo" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "Who is the author of the novel '1984'?",
+    "options": [
+      { "id": "a", "text": "George Orwell" },
+      { "id": "b", "text": "Aldous Huxley" },
+      { "id": "c", "text": "Ray Bradbury" },
+      { "id": "d", "text": "F. Scott Fitzgerald" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Which gas do plants release during photosynthesis?",
+    "options": [
+      { "id": "a", "text": "Carbon dioxide" },
+      { "id": "b", "text": "Oxygen" },
+      { "id": "c", "text": "Nitrogen" },
+      { "id": "d", "text": "Methane" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Brazil?",
+    "options": [
+      { "id": "a", "text": "Sao Paulo" },
+      { "id": "b", "text": "Rio de Janeiro" },
+      { "id": "c", "text": "Brasilia" },
+      { "id": "d", "text": "Salvador" }
+    ],
+    "answer": "c"
+  }
+]
