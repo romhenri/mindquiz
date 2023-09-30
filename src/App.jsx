@@ -23,6 +23,8 @@ function App() {
             element={<Quiz title="General 2" data="general2"/>}/>
           <Route path='general3' 
             element={<Quiz title="General 3" data="general3"/>}/>
+          <Route path='history1' 
+            element={<Quiz title="History 1" data="history1"/>}/>
           <Route path='programming1' 
             element={<Quiz title="Programming 1" data="programming1"/>}/>
           <Route path='programming2' 

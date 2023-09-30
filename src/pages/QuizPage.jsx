@@ -8,6 +8,7 @@ const QuizPage = () => {
   const general1 = () => {navigate("/quiz/general1")}
   const general2 = () => {navigate("/quiz/general2")}
   const general3 = () => {navigate("/quiz/general3")}
+  const history1 = () => {navigate("/quiz/history1")}
   const programming1 = () => {navigate("/quiz/programming1")}
   const programming2 = () => {navigate("/quiz/programming2")}
   const javascript1 = () => {navigate("/quiz/javascript1")}
@@ -43,6 +44,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={general3}>
             <h3>General 3</h3>
             <p>Easy general knowledge questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={history1}>
+            <h3>History 1</h3>
+            <p>Easy history knowledge questions.</p>
           </div>
 
           <div className="quizCard" onClick={programming1}>

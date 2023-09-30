@@ -5,6 +5,7 @@ import '../css/Quiz.css';
 import general1 from './general1.json';
 import general2 from './general2.json';
 import general3 from './general3.json';
+import history1 from './history1.json';
 import programming1 from './programming1.json';
 import programming2 from './programming2.json';
 import javascript1 from './javascript1.json';
@@ -14,8 +15,6 @@ import python1 from './python1.json';
 
 var score = 0
 var numberOfQuestions
-
-// "answers": ["b", "a", "c", "a", "b", "b", "d", "a", "c", "b"]
 
 class RadioForm extends Component {
   constructor(props) {
@@ -36,6 +35,9 @@ class RadioForm extends Component {
         break;
       case 'general3':
         this.dataJSON = general3;
+        break;
+      case 'history1':
+        this.dataJSON = history1;
         break;
       case 'programming1':
         this.dataJSON = programming1;

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "history1",
+    "title": "History 1"
+  },
+  {
+    "id": 1,
+    "question": "Who was the first President of the United States?",
+    "options": [
+      { "id": "a", "text": "Thomas Jefferson" },
+      { "id": "b", "text": "Benjamin Franklin" },
+      { "id": "c", "text": "George Washington" },
+      { "id": "d", "text": "John Adams" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "In which year did Christopher Columbus first arrive in the Americas?",
+    "options": [
+      { "id": "a", "text": "1492" },
+      { "id": "b", "text": "1620" },
+      { "id": "c", "text": "1776" },
+      { "id": "d", "text": "1812" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Who wrote the 'Declaration of Independence' of the United States?",
+    "options": [
+      { "id": "a", "text": "Thomas Jefferson" },
+      { "id": "b", "text": "George Washington" },
+      { "id": "c", "text": "John Adams" },
+      { "id": "d", "text": "Alexander Hamilton" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 12,
+    "question": "What treaty ended World War I?",
+    "options": [
+      { "id": "a", "text": "Treaty of Versailles" },
+      { "id": "b", "text": "Treaty of Tordesillas" },
+      { "id": "c", "text": "Treaty of Paris" },
+      { "id": "d", "text": "Treaty of Ghent" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Which European explorer is credited with discovering the sea route to India in the late 15th century?",
+    "options": [
+      { "id": "a", "text": "Christopher Columbus" },
+      { "id": "b", "text": "Ferdinand Magellan" },
+      { "id": "c", "text": "Vasco da Gama" },
+      { "id": "d", "text": "Amerigo Vespucci" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+    "options": [
+      { "id": "a", "text": "Nikita Khrushchev" },
+      { "id": "b", "text": "Leon Trotsky" },
+      { "id": "c", "text": "Vladimir Putin" },
+      { "id": "d", "text": "Joseph Stalin" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Which ancient wonder of the world was located in Babylon?",
+    "options": [
+      { "id": "a", "text": "Great Wall of China" },
+      { "id": "b", "text": "Pyramids of Giza" },
+      { "id": "c", "text": "Hanging Gardens of Babylon" },
+      { "id": "d", "text": "Statue of Zeus at Olympia" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "What event marked the beginning of World War I?",
+    "options": [
+      { "id": "a", "text": "The assassination of Archduke Franz Ferdinand" },
+      { "id": "b", "text": "The sinking of the Lusitania" },
+      { "id": "c", "text": "The Battle of Stalingrad" },
+      { "id": "d", "text": "The signing of the Treaty of Versailles" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Who is known for discovering the New World in 1492?",
+    "options": [
+      { "id": "a", "text": "Christopher Columbus" },
+      { "id": "b", "text": "Amerigo Vespucci" },
+      { "id": "c", "text": "Marco Polo" },
+      { "id": "d", "text": "Ferdinand Magellan" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 10,
+    "question": "What is the largest river in the world?",
+    "options": [
+      { "id": "a", "text": "Nile River" },
+      { "id": "b", "text": "Amazon River" },
+      { "id": "c", "text": "Mississippi River" },
+      { "id": "d", "text": "Yangtze River" }
+    ],
+    "answer": "b"
+  }
+]
