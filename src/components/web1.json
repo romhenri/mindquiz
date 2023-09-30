@@ -1,0 +1,116 @@
+[
+  {
+    "name": "web1",
+    "title": "Web 1"
+  },
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      { "id": "a", "text": "Hyper Text Markup Language" },
+      { "id": "b", "text": "Highly Technical Modern Language" },
+      { "id": "c", "text": "Hyperlink and Text Markup Language" },
+      { "id": "d", "text": "Home Tool Markup Language" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Which scripting language is often used for front-end web development?",
+    "options": [
+      { "id": "a", "text": "Python" },
+      { "id": "b", "text": "Java" },
+      { "id": "c", "text": "JavaScript" },
+      { "id": "d", "text": "Ruby" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 3,
+    "question": "What protocol is used to transfer web pages from a web server to a web browser?",
+    "options": [
+      { "id": "a", "text": "HTTP" },
+      { "id": "b", "text": "FTP" },
+      { "id": "c", "text": "SMTP" },
+      { "id": "d", "text": "TCP" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "What does the acronym 'URL' stand for in the context of the web?",
+    "options": [
+      { "id": "a", "text": "Universal Resource Locator" },
+      { "id": "b", "text": "Uniform Resource Locator" },
+      { "id": "c", "text": "Unified Resource Link" },
+      { "id": "d", "text": "Unique Resource Locator" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "What does CSS stand for?",
+    "options": [
+      { "id": "a", "text": "Cascading Style Sheet" },
+      { "id": "b", "text": "Computer Style Sheet" },
+      { "id": "c", "text": "Creative Style Sheet" },
+      { "id": "d", "text": "Colorful Style Sheet" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 6,
+    "question": "What is the primary purpose of a web server?",
+    "options": [
+      { "id": "a", "text": "Storing web pages" },
+      { "id": "b", "text": "Rendering web pages" },
+      { "id": "c", "text": "Serving web pages to clients" },
+      { "id": "d", "text": "Designing web pages" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 7,
+    "question": "Which markup language is used to structure content on the web?",
+    "options": [
+      { "id": "a", "text": "CSS" },
+      { "id": "b", "text": "JavaScript" },
+      { "id": "c", "text": "HTML" },
+      { "id": "d", "text": "PHP" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "Which organization or consortium is responsible for setting web standards and specifications?",
+    "options": [
+      { "id": "a", "text": "World Wide Web Consortium (W3C)" },
+      { "id": "b", "text": "Internet Engineering Task Force (IETF)" },
+      { "id": "c", "text": "Web Standards Organization (WSO)" },
+      { "id": "d", "text": "Internet Standards Institute (ISI)" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is used to make a website responsive to different screen sizes?",
+    "options": [
+      { "id": "a", "text": "HTML" },
+      { "id": "b", "text": "CSS" },
+      { "id": "c", "text": "JavaScript" },
+      { "id": "d", "text": "PHP" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 10,
+    "question": "What does HTTP stand for?",
+    "options": [
+      { "id": "a", "text": "Hypertext Transfer Protocol" },
+      { "id": "b", "text": "Hypertext Transmission Protocol" },
+      { "id": "c", "text": "Hypertext Technical Transfer Protocol" },
+      { "id": "d", "text": "Hypertext Textual Transmission Protocol" }
+    ],
+    "answer": "a"
+  }
+]

@@ -14,6 +14,7 @@ const QuizPage = () => {
   const javascript1 = () => {navigate("/quiz/javascript1")}
   const javascript2 = () => {navigate("/quiz/javascript2")}
   const javascript3 = () => {navigate("/quiz/javascript3")}
+  const web1 = () => {navigate("/quiz/web1")}
   const python1 = () => {navigate("/quiz/python1")}
   
   return (
@@ -74,6 +75,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={javascript3}>
             <h3>JavaScript 3</h3>
             <p>Intermediate-level JavaScript questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={web1}>
+            <h3>Web 1</h3>
+            <p>Easy web questions.</p>
           </div>
 
           <div className="quizCard" onClick={python1}>

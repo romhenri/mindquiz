@@ -35,9 +35,10 @@ function App() {
             element={<Quiz title="JavaScript 2" data="javascript2"/>}/>
           <Route path='javascript3' 
             element={<Quiz title="JavaScript 3" data="javascript3"/>}/>
+          <Route path='web1'
+            element={<Quiz title="Web 1" data="web1"/>}/>
           <Route path='python1' 
             element={<Quiz title="Python 1" data="python1"/>}/>
-
 
           <Route path='*' element={<QuizPage/>}>
 
