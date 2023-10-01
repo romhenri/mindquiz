@@ -12,6 +12,7 @@ import javascript1 from './javascript1.json';
 import javascript2 from './javascript2.json';
 import javascript3 from './javascript3.json';
 import web1 from './web1.json';
+import linux1 from './linux1.json';
 import python1 from './python1.json';
 
 var score = 0
@@ -57,6 +58,9 @@ class RadioForm extends Component {
         break;
       case 'web1':
         this.dataJSON = web1;
+        break;
+      case 'linux1':
+        this.dataJSON = linux1;
         break;
       case 'python1':
         this.dataJSON = python1;

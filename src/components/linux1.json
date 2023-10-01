@@ -1,0 +1,116 @@
+[
+  {
+    "name": "linux1",
+    "title": "Linux 1"
+  },
+  {
+    "id": 1,
+    "question": "What command is used to display the current working directory in Linux?",
+    "options": [
+      { "id": "a", "text": "pwd" },
+      { "id": "b", "text": "ls" },
+      { "id": "c", "text": "cd" },
+      { "id": "d", "text": "dir" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Which command is used to create a new directory in Linux?",
+    "options": [
+      { "id": "a", "text": "rd" },
+      { "id": "b", "text": "mkdir" },
+      { "id": "c", "text": "touch" },
+      { "id": "d", "text": "newdir" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "What command is used to list files and directories in a directory in Linux?",
+    "options": [
+      { "id": "a", "text": "dir" },
+      { "id": "b", "text": "ls" },
+      { "id": "c", "text": "list" },
+      { "id": "d", "text": "show" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "Which command is used to remove a file in Linux?",
+    "options": [
+      { "id": "a", "text": "rm" },
+      { "id": "b", "text": "delete" },
+      { "id": "c", "text": "del" },
+      { "id": "d", "text": "remove" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "What command is used to change file permissions in Linux?",
+    "options": [
+      { "id": "a", "text": "chmod" },
+      { "id": "b", "text": "chown" },
+      { "id": "c", "text": "perm" },
+      { "id": "d", "text": "changeperm" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 6,
+    "question": "Which command is used to display the manual page for a Linux command?",
+    "options": [
+      { "id": "a", "text": "help" },
+      { "id": "b", "text": "man" },
+      { "id": "c", "text": "info" },
+      { "id": "d", "text": "command" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "What command is used to search for files and directories in Linux?",
+    "options": [
+      { "id": "a", "text": "search" },
+      { "id": "b", "text": "find" },
+      { "id": "c", "text": "locate" },
+      { "id": "d", "text": "grep" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 8,
+    "question": "Which command is used to compress files and directories in Linux?",
+    "options": [
+      { "id": "a", "text": "tar" },
+      { "id": "b", "text": "zip" },
+      { "id": "c", "text": "compress" },
+      { "id": "d", "text": "gzip" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "What command is used to edit a text file in the terminal in Linux?",
+    "options": [
+      { "id": "a", "text": "edit" },
+      { "id": "b", "text": "nano" },
+      { "id": "c", "text": "vim" },
+      { "id": "d", "text": "write" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 10,
+    "question": "Which command is used to display the contents of a text file in Linux?",
+    "options": [
+      { "id": "a", "text": "view" },
+      { "id": "b", "text": "show" },
+      { "id": "c", "text": "cat" },
+      { "id": "d", "text": "read" }
+    ],
+    "answer": "c"
+  }
+]
