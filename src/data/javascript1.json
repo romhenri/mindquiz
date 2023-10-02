@@ -1,7 +1,8 @@
 [
   {
     "name": "javascript1",
-    "title": "JavaScript 1"
+    "title": "JavaScript 1",
+    "tags": ["programming", "javascript"]
   },
   {
     "id": 1,

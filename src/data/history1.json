@@ -1,7 +1,8 @@
 [
   {
     "name": "history1",
-    "title": "History 1"
+    "title": "History 1",
+    "tags": ["history"]
   },
   {
     "id": 1,

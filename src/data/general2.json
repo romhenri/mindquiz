@@ -1,7 +1,8 @@
 [
   {
     "name": "general2",
-    "title": "General 2"
+    "title": "General 2",
+    "tags": ["general"]
   },
   {
     "id": 1,

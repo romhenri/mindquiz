@@ -1,7 +1,8 @@
 [
   {
     "name": "web1",
-    "title": "Web 1"
+    "title": "Web 1",
+    "tags": ["programming"]
   },
   {
     "id": 1,

@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import ConclusionPage from '../pages/ConclusionPage.jsx'
 import Button from './Button.jsx'
 import '../css/Quiz.css';
-import general1 from './general1.json';
-import general2 from './general2.json';
-import general3 from './general3.json';
-import history1 from './history1.json';
-import programming1 from './programming1.json';
-import programming2 from './programming2.json';
-import javascript1 from './javascript1.json';
-import javascript2 from './javascript2.json';
-import javascript3 from './javascript3.json';
-import web1 from './web1.json';
-import linux1 from './linux1.json';
-import python1 from './python1.json';
+import general1 from '../data/general1.json';
+import general2 from '../data/general2.json';
+import general3 from '../data/general3.json';
+import history1 from '../data/history1.json';
+import programming1 from '../data/programming1.json';
+import programming2 from '../data/programming2.json';
+import javascript1 from '../data/javascript1.json';
+import javascript2 from '../data/javascript2.json';
+import javascript3 from '../data/javascript3.json';
+import web1 from '../data/web1.json';
+import linux1 from '../data/linux1.json';
+import python1 from '../data/python1.json';
 
 var score = 0
 var numberOfQuestions

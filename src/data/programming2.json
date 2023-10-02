@@ -1,7 +1,8 @@
 [
   {
     "name": "programming1",
-    "title": "Programming 1"
+    "title": "Programming 1",
+    "tags": ["programming"]
   },
   {
     "id": 1,
