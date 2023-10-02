@@ -40,12 +40,12 @@ button.alternative {
   border: 2px solid #21247000 !important;
 }
 
-.question button:active {
+button:active {
   scale: 95%;
   transition: .3s;
 }
 
-.question button.alternative:hover {
+button.alternative:hover {
   transition: .3s;
   background-color: #dbdbdb !important;
   border: 2px solid #c0c0c0 !important;

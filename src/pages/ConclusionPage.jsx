@@ -1,6 +1,23 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+// import Button from '../components/Button'
 import '../css/Pages.css';
+
+const tryAgain = () => {
+  window.location.reload(true);
+}
+
+const share = () => {
+  console.log(window.location);
+  console.log(window.locationbar);
+
+  if (navigator.share) {
+    navigator.share({
+      url: window.location,
+      title: 'MindQuiz - You need to know!'
+    })
+  }
+}
 
 function getAnswerText(array, answer) {
   // console.log(array[1].text);
@@ -55,21 +72,31 @@ const ConclusionPage = ( { data, answers, rate}) => {
 
   return (
     <main className='conclusion-page'>
-        <h2>Accuracy {rate}%</h2>
-        
-        <div> Your answers: {answers.slice(1).join(', ')}.</div>
+      <h2>Accuracy {rate}%</h2>
+      
+      <div> Your answers: {answers.slice(1).join(', ')}.</div>
 
-        <div>
-         Right answers: {data.slice(1).map(item => item.answer).join(', ')}.
-        </div>
+      <div>
+        Right answers: {data.slice(1).map(item => item.answer).join(', ')}.
+      </div>
 
-        <div className='buttonsLine'>
-          <button onClick={returnHome}>Return</button>
-        </div>
+      <div className='buttonsLine'>
+        <button onClick={returnHome}>Return</button>
+      </div>
+      <div className='buttonsLine' >
+
+        <button onClick={tryAgain} className='alternative'>
+          Try again
+        </button>
+
+        <button onClick={share} className='alternative'>
+          Share
+        </button>
+      </div>
 
 
-        <div id='cardsContainer'>
-        {answerCards}
+      <div id='cardsContainer'>
+      {answerCards}
       </div>
 
     </main>

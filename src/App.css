@@ -50,6 +50,10 @@ button:hover {
   gap: 10px;
 }
 
+.conclusion-page .buttonsLine {
+  margin: 0px;
+}
+
 section {
   padding: 20px;
   margin: 10px auto;

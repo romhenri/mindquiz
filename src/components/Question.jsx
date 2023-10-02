@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ConclusionPage from '../pages/ConclusionPage.jsx'
 import Button from './Button.jsx'
 import '../css/Quiz.css';
+// Data
 import general1 from '../data/general1.json';
 import general2 from '../data/general2.json';
 import general3 from '../data/general3.json';
@@ -213,7 +214,6 @@ class RadioForm extends Component {
         </div>
 
         <div className='buttonsLine'>
-
           <Button text='Quit' className='alternative' onClick='returnHome'/>
 
           <button id='btnConfirm' className='alternative' 
