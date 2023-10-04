@@ -9,7 +9,7 @@
   padding: 20px 30px;
   /* gap: 10px; */
   border-radius: 10px;
-  max-width: 1080px;
+  max-width: 1090px;
 
   display: flex;
   align-items: center;
@@ -17,6 +17,7 @@
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 16px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   font-size: .8em;
+  box-sizing: border-box !important;
 }
 
 .navbar a {
