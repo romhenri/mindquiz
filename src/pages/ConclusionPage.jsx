@@ -73,12 +73,16 @@ const ConclusionPage = ( { data, answers, rate}) => {
   return (
     <main className='conclusion-page'>
       <h2>Accuracy {rate}%</h2>
-      
+
+      <hr />
+
       <div> Your answers: {answers.slice(1).join(', ')}.</div>
 
       <div>
         Right answers: {data.slice(1).map(item => item.answer).join(', ')}.
       </div>
+
+      <hr />
 
       <div className='buttonsLine'>
         <button onClick={returnHome}>Return</button>

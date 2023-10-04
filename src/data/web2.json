@@ -1,0 +1,117 @@
+[
+  {
+    "name": "web2",
+    "title": "Web Hosting and Domains",
+    "tags": ["web"]
+  },
+  {
+    "id": 1,
+    "question": "What is web hosting?",
+    "options": [
+      { "id": "a", "text": "A service for creating websites" },
+      { "id": "b", "text": "A protocol for transferring files" },
+      { "id": "c", "text": "A service for storing and serving website files" },
+      { "id": "d", "text": "A type of domain name" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "What is a domain name?",
+    "options": [
+      { "id": "a", "text": "A website's IP address" },
+      { "id": "b", "text": "A website's physical location" },
+      { "id": "c", "text": "A website's name or address on the internet" },
+      { "id": "d", "text": "A type of web hosting service" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 3,
+    "question": "What does DNS stand for in the context of web hosting and domains?",
+    "options": [
+      { "id": "a", "text": "Domain Name System" },
+      { "id": "b", "text": "Dynamic Network Server" },
+      { "id": "c", "text": "Digital Name Service" },
+      { "id": "d", "text": "Domain Name Service" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "What HTTP status code indicates a 'Not Found' error in web development?",
+    "options": [
+      { "id": "a", "text": "404" },
+      { "id": "b", "text": "200" },
+      { "id": "c", "text": "500" },
+      { "id": "d", "text": "301" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "What is an SSL certificate used for in web hosting?",
+    "options": [
+      { "id": "a", "text": "Storing website content" },
+      { "id": "b", "text": "Encrypting data transmitted between the server and the client" },
+      { "id": "c", "text": "Registering domain names" },
+      { "id": "d", "text": "Designing website layouts" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What is a Content Management System (CMS) commonly used for in website development?",
+    "options": [
+      { "id": "a", "text": "Registering domain names" },
+      { "id": "b", "text": "Managing website content and structure" },
+      { "id": "c", "text": "Securing web servers" },
+      { "id": "d", "text": "Creating SSL certificates" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "In an HTTP response, where is the HTML content typically located?",
+    "options": [
+      { "id": "a", "text": "In the response header" },
+      { "id": "b", "text": "In the request URL" },
+      { "id": "c", "text": "In the response body" },
+      { "id": "d", "text": "In the request method" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 8,
+    "question": "What HTTP method is typically used when a client wants to retrieve data from a server without making any changes to the server's resources?",
+    "options": [
+      { "id": "a", "text": "GET" },
+      { "id": "b", "text": "POST" },
+      { "id": "c", "text": "PUT" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "a"
+  },  
+  {
+    "id": 9,
+    "question": "Which HTTP status code indicates a successful request in web development?",
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "404" },
+      { "id": "c", "text": "500" },
+      { "id": "d", "text": "301" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 10,
+    "question": "What is the primary purpose of HSTS (HTTP Strict Transport Security) in HTTPS?",
+    "options": [
+      { "id": "a", "text": "To speed up website loading times" },
+      { "id": "b", "text": "To prevent mixed content on a webpage" },
+      { "id": "c", "text": "To ensure all web traffic uses secure HTTPS connections" },
+      { "id": "d", "text": "To manage website content and structure" }
+    ],
+    "answer": "c"
+  }
+]

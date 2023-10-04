@@ -13,6 +13,7 @@ import javascript1 from '../data/javascript1.json';
 import javascript2 from '../data/javascript2.json';
 import javascript3 from '../data/javascript3.json';
 import web1 from '../data/web1.json';
+import web2 from '../data/web2.json';
 import linux1 from '../data/linux1.json';
 import python1 from '../data/python1.json';
 
@@ -59,6 +60,9 @@ class RadioForm extends Component {
         break;
       case 'web1':
         this.dataJSON = web1;
+        break;
+      case 'web2':
+        this.dataJSON = web2;
         break;
       case 'linux1':
         this.dataJSON = linux1;
