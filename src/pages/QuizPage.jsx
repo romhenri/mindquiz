@@ -18,6 +18,7 @@ const QuizPage = () => {
   const web2 = () => {navigate("/quiz/web2")}
   const linux1 = () => {navigate("/quiz/linux1")}
   const python1 = () => {navigate("/quiz/python1")}
+  const canvas1 = () => {navigate("/quiz/canvas1")}
   
   return (
     <main className='quizPage'>
@@ -97,6 +98,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={python1}>
             <h3>Python 1</h3>
             <p>Easy Python questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={canvas1}>
+            <h3>Business Model Canvas 1</h3>
+            <p>Easy BMC questions.</p>
           </div>
         </div>
     </main>

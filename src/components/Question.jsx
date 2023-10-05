@@ -16,6 +16,7 @@ import web1 from '../data/web1.json';
 import web2 from '../data/web2.json';
 import linux1 from '../data/linux1.json';
 import python1 from '../data/python1.json';
+import canvas1 from '../data/canvas1.json';
 
 var score = 0
 var numberOfQuestions
@@ -69,6 +70,9 @@ class RadioForm extends Component {
         break;
       case 'python1':
         this.dataJSON = python1;
+        break;
+      case 'canvas1':
+        this.dataJSON = canvas1;
         break;
       default:
         console.log("No Found Quiz");

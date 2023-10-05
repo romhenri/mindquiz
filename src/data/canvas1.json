@@ -1,0 +1,73 @@
+[ 
+  {
+    "name": "canvas1",
+    "title": "BMC 1",
+    "tags": ["business"]
+  },
+  {
+    "id": 1,
+    "question": "A BMC is...",
+    "options": [
+      { "id": "a", "text": "a Software" },
+      { "id": "b", "text": "a Book" },
+      { "id": "c", "text": "a Methodology" },
+      { "id": "d", "text": "a Problem" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 2,
+    "question": "What's M in BMC?",
+    "options": [
+      { "id": "a", "text": "Mode" },
+      { "id": "b", "text": "Model" },
+      { "id": "c", "text": "Mood" },
+      { "id": "d", "text": "Methodology" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 3,
+    "question": "How much sections has a BMC?",
+    "options": [
+      { "id": "a", "text": "4" },
+      { "id": "b", "text": "6" },
+      { "id": "c", "text": "3" },
+      { "id": "d", "text": "9" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following questions is related to the value proposition in a business model canvas?",
+    "options": [
+      { "id": "a", "text": "How much is our good or product worth in the market?" },
+      { "id": "b", "text": "How much is a customer willing to pay for the service or product we offer?" },
+      { "id": "c", "text": "What is the problem we are trying to help our customer solve?" },
+      { "id": "d", "text": "Is there anyone in the field who is doing the same job at a lower cost?" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following questions is related to the value proposition in a business model canvas?",
+    "options": [
+      { "id": "a", "text": "How much is our good or product worth in the market?" },
+      { "id": "b", "text": "How much is a customer willing to pay for the service or product we offer?" },
+      { "id": "c", "text": "What is the problem we are trying to help our customer solve?" },
+      { "id": "d", "text": "Is there anyone in the field who is doing the same job at a lower cost?" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "The Business Model Canvas helps to...?",
+    "options": [
+      { "id": "a", "text": "improve manegement" },
+      { "id": "b", "text": "increase profit" },
+      { "id": "c", "text": "reduce losts" },
+      { "id": "d", "text": "ideate a business" }
+    ],
+    "answer": "d"
+  }
+]
