@@ -45,6 +45,8 @@ function App() {
             element={<Quiz title="Python 1" data="python1"/>}/>
           <Route path='canvas1' 
             element={<Quiz title="BMC 1" data="canvas1"/>}/>
+          <Route path='principios-da-contabilidade' 
+            element={<Quiz title="Princípios da Contabilidade" data="principios-da-contabilidade"/>}/>
 
           <Route path='*' element={<QuizPage/>}>
 

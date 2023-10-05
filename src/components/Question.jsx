@@ -17,6 +17,7 @@ import web2 from '../data/web2.json';
 import linux1 from '../data/linux1.json';
 import python1 from '../data/python1.json';
 import canvas1 from '../data/canvas1.json';
+import principios_da_contabilidade from '../data/principios-da-contabilidade.json';
 
 var score = 0
 var numberOfQuestions
@@ -73,6 +74,9 @@ class RadioForm extends Component {
         break;
       case 'canvas1':
         this.dataJSON = canvas1;
+        break;
+      case 'principios-da-contabilidade':
+        this.dataJSON = principios_da_contabilidade;
         break;
       default:
         console.log("No Found Quiz");
@@ -147,12 +151,15 @@ class RadioForm extends Component {
       // End
       return <ConclusionPage 
       data={this.dataJSON} answers={this.state.answers} rate={rate}/>
-    } 
-
+    }
+    
+    if (currentQuestion.question === "Para Mariza Lisboa Monteiro,") {
+      currentQuestion.question = "Para Mariza Lisboa Monteiro, gostaria de dizer que te acho muito corajosa e inteligente. Você é totalmente capaz de fazer uma excelente prova, pois seu futuro é muito maior do que tudo isso. Vou estar te esperando, para que traga boas notícias.  : )"
+    }
+    
     return (
       <div className='question'>
         <h3>{currentQuestion.question}</h3>
-
         <div className="option">
           <input
             type="radio"
@@ -168,6 +175,7 @@ class RadioForm extends Component {
           </label>
         </div>
 
+        {currentQuestion.options[1] && 
         <div className="option">
           <input
             type="radio"
@@ -181,8 +189,9 @@ class RadioForm extends Component {
           <label htmlFor="b">
             {currentQuestion.options[1].text}
           </label>
-        </div>
+        </div>}
 
+        {currentQuestion.options[2] && 
         <div className="option">
           <input
             type="radio"
@@ -196,8 +205,9 @@ class RadioForm extends Component {
           <label htmlFor="c">
             {currentQuestion.options[2].text}
           </label>
-        </div>
+        </div>}
 
+        {currentQuestion.options[3] && 
         <div className="option">
           <input
             type="radio"
@@ -211,7 +221,7 @@ class RadioForm extends Component {
           <label htmlFor="d">
           {currentQuestion.options[3].text}
           </label>
-        </div>
+        </div>}
 
         <div className='buttonsLine'>
          <button id='btnConfirm' onClick={

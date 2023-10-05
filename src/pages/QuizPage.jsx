@@ -19,6 +19,7 @@ const QuizPage = () => {
   const linux1 = () => {navigate("/quiz/linux1")}
   const python1 = () => {navigate("/quiz/python1")}
   const canvas1 = () => {navigate("/quiz/canvas1")}
+  const principios_da_contabilidade = () => {navigate("/quiz/principios-da-contabilidade")}
   
   return (
     <main className='quizPage'>
@@ -103,6 +104,11 @@ const QuizPage = () => {
           <div className="quizCard" onClick={canvas1}>
             <h3>Business Model Canvas 1</h3>
             <p>Easy BMC questions.</p>
+          </div>
+
+          <div className="quizCard" onClick={principios_da_contabilidade}>
+            <h3>Princípios da Contabilidade</h3>
+            <p>Questões sobre os princípios da Contabilidade pelo CFC.</p>
           </div>
         </div>
     </main>

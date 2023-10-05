@@ -1,0 +1,98 @@
+[
+  {
+    "name": "principios-da-contabilidade",
+    "title": "Princípios da Contabilidade",
+    "tags": ["accounting"],
+    "lang": "pt-br"
+  },
+  {
+    "id": 1,
+    "question": "O termo 'valor original' significa...?",
+    "options": [
+      { "id": "a", "text": "Valor expresso em moeda internacional" },
+      { "id": "b", "text": "Valor expresso em valor presente da moeda do país" },
+      { "id": "c", "text": "Valor expresso em Reais" },
+      { "id": "d", "text": "Valor expresso baseado no momento da transação" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "'Ativos não podem ser superestimados e Passivos não podem ser subestimados.' A qual princípio essas afirmações estão relacionadas?",
+    "options": [
+      { "id": "a", "text": "O do Registro pelo valor original" },
+      { "id": "b", "text": "O da Continuidade" },
+      { "id": "c", "text": "O da Competência" },
+      { "id": "d", "text": "O da Prudência" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 3,
+    "question": "Integridade e Tempestividade, pertecem  a qual princípio?",
+    "options": [
+      { "id": "a", "text": "O da Continuidade" },
+      { "id": "b", "text": "O da Prudência" },
+      { "id": "c", "text": "O da Oportunidade" },
+      { "id": "d", "text": "O da Competência" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 4,
+    "question": "'O princípio da Entidade consiste em não confundir o patrimônio da Entidade com o de seus propietários'",
+    "options": [
+      { "id": "a", "text": "Verdadeiro" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "De acordo com o princípio da Competência, as contas das receitas devem ser registradas de acordo...",
+    "options": [
+      { "id": "a", "text": "com sua conclusão" },
+      { "id": "b", "text": "com seu planejamento" },
+      { "id": "b", "text": "com sua ocorrência" },
+      { "id": "b", "text": "com sua obsolecência" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "'O princípio da Continuídade consiste em manter critérios e métricas para proporcionar uma justa comparação entre períodos'",
+    "options": [
+      { "id": "a", "text": "Verdadeiro" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 7,
+    "question": "Qual foi o princípio foi revogado?",
+    "options": [
+      { "id": "a", "text": "O da Imparcialidade" },
+      { "id": "b", "text": "O da Confidecialidade" },
+      { "id": "c", "text": "O da Diginidade" },
+      { "id": "d", "text": "O da Atualização Monetária" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 7,
+    "question": "'Segundo princípio da Competência, as despesas ou receitas devem ser classificadas baseadas no Fato Gerador'",
+    "options": [
+      { "id": "a", "text": "Verdadeiro" },
+      { "id": "b", "text": "Falso" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 9,
+    "question": "Para Mariza Lisboa Monteiro,",
+    "options": [
+      { "id": "a", "text": "Lido" }
+    ],
+    "answer": "a"
+  }
+]
