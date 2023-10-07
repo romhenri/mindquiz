@@ -153,6 +153,7 @@ class RadioForm extends Component {
       <div className='question'>
         <h3>{currentQuestion.question}</h3>
 
+        
         <div className="option">
           <input
             type="radio"
@@ -168,6 +169,7 @@ class RadioForm extends Component {
           </label>
         </div>
 
+        {currentQuestion.options[1] && 
         <div className="option">
           <input
             type="radio"
@@ -181,8 +183,9 @@ class RadioForm extends Component {
           <label htmlFor="b">
             {currentQuestion.options[1].text}
           </label>
-        </div>
+        </div>}
 
+        {currentQuestion.options[2] &&
         <div className="option">
           <input
             type="radio"
@@ -196,8 +199,9 @@ class RadioForm extends Component {
           <label htmlFor="c">
             {currentQuestion.options[2].text}
           </label>
-        </div>
+        </div>}
 
+        {currentQuestion.options[3] && 
         <div className="option">
           <input
             type="radio"
@@ -211,7 +215,7 @@ class RadioForm extends Component {
           <label htmlFor="d">
           {currentQuestion.options[3].text}
           </label>
-        </div>
+        </div>}
 
         <div className='buttonsLine'>
          <button id='btnConfirm' onClick={
