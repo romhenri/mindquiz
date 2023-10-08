@@ -1,25 +1,46 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import manThinking from '../assets/man-thinking-bro.png'
 
-const QuizPage = () => {
+const QuizPage = ({quizzes}) => {
   const navigate = useNavigate()
 
-  const general1 = () => {navigate("/quiz/general1")}
-  const general2 = () => {navigate("/quiz/general2")}
-  const general3 = () => {navigate("/quiz/general3")}
-  const history1 = () => {navigate("/quiz/history1")}
-  const programming1 = () => {navigate("/quiz/programming1")}
-  const programming2 = () => {navigate("/quiz/programming2")}
-  const javascript1 = () => {navigate("/quiz/javascript1")}
-  const javascript2 = () => {navigate("/quiz/javascript2")}
-  const javascript3 = () => {navigate("/quiz/javascript3")}
-  const web1 = () => {navigate("/quiz/web1")}
-  const web2 = () => {navigate("/quiz/web2")}
-  const linux1 = () => {navigate("/quiz/linux1")}
-  const python1 = () => {navigate("/quiz/python1")}
-  const canvas1 = () => {navigate("/quiz/canvas1")}
-  
+  function createQuizzesCards(quizzes) {
+    return quizzes.slice(0).map((item, index) => (
+      <div key={index} className="quizCard">
+        <h3>{quizzes[index][0].title}</h3>
+        <p>{quizzes[index][0].desc}</p>
+        <small>
+          {quizzes[index][0].tags.toString().replace(",", ", ")}
+        </small>
+      </div>
+    ));
+  }
+
+  useEffect(() => {
+    // Navigate to "name"
+    const handleQuizCardClick = (name) => {
+      navigate(`/quiz/${name}`);
+    };
+
+    // Add "EventListener" to all cards
+    const quizCards = document.querySelectorAll('.quizCard');
+    quizCards.forEach((card, index) => {
+      card.addEventListener('click', () => {
+        handleQuizCardClick(quizzes[index][0].name);
+      });
+    });
+
+    // Remove "EventListener" to all cards
+    return () => {
+      quizCards.forEach((card, index) => {
+        card.removeEventListener('click', () => {
+          handleQuizCardClick(quizzes[index][0].name);
+        });
+      });
+    };
+  }, [quizzes, navigate]);
+
   return (
     <main className='quizPage'>
       <section className='quizzes'>
@@ -29,81 +50,13 @@ const QuizPage = () => {
             <p>MindQuiz offers a wide array of quizzes for all interests. From challenging trivia to engaging puzzles, there's something for everyone. Whether you're into history, science, or pop culture, we've got quizzes to both entertain and challenge you. Explore a world of topics designed to stimulate your mind. Join us at MindQuiz!</p>
           </div>
           <div>
-            <img src={manThinking} alt="" />
+            <img src={manThinking} alt="Man thinking" />
           </div>
         </div>
       </section>
 
         <div className="container">
-          <div className="quizCard" onClick={general1}>
-            <h3>General 1</h3>
-            <p>Easy general knowledge questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={general2}>
-            <h3>General 2</h3>
-            <p>Easy general knowledge questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={general3}>
-            <h3>General 3</h3>
-            <p>Easy general knowledge questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={history1}>
-            <h3>History 1</h3>
-            <p>Easy history knowledge questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={programming1}>
-            <h3>Programming 1</h3>
-            <p>Easy general programming questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={programming2}>
-            <h3>Programming 2</h3>
-            <p>Intermediate-level general programming questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={javascript1}>
-            <h3>JavaScript 1</h3>
-            <p>Easy JavaScript questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={javascript2}>
-            <h3>JavaScript 2</h3>
-            <p>Easy JavaScript questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={javascript3}>
-            <h3>JavaScript 3</h3>
-            <p>Intermediate-level JavaScript questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={web1}>
-            <h3>Web 1</h3>
-            <p>Easy web questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={web2}>
-            <h3>Web 2</h3>
-            <p>Easy web questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={linux1}>
-            <h3>Linux 1</h3>
-            <p>Easy Linux questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={python1}>
-            <h3>Python 1</h3>
-            <p>Easy Python questions.</p>
-          </div>
-
-          <div className="quizCard" onClick={canvas1}>
-            <h3>Business Model Canvas 1</h3>
-            <p>Easy BMC questions.</p>
-          </div>
+         {createQuizzesCards(quizzes)}
         </div>
     </main>
   )

@@ -2,7 +2,9 @@
   {
     "name": "history1",
     "title": "History 1",
-    "tags": ["history"]
+    "desc": "Easy history questions.",
+    "tags": ["history"],
+    "lang": "en"
   },
   {
     "id": 1,

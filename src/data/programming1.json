@@ -2,7 +2,9 @@
   {
     "name": "programming1",
     "title": "Programming 1",
-    "tags": ["programming"]
+    "desc": "Easy general programming questions.",
+    "tags": ["programming"],
+    "lang": "en"
   },
   {
     "id": 1,

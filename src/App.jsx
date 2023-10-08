@@ -6,57 +6,71 @@ import HomePage from './pages/HomePage'
 import QuizPage from './pages/QuizPage'
 import AboutPage from './pages/AboutPage'
 import Quiz from './components/Quiz'
-import Question from './components/Question'
+// Data
+import general1 from './data/general1.json';
+import general2 from './data/general2.json';
+import general3 from './data/general3.json';
+import history1 from './data/history1.json';
+import programming1 from './data/programming1.json';
+import programming2 from './data/programming2.json';
+import javascript1 from './data/javascript1.json';
+import javascript2 from './data/javascript2.json';
+import javascript3 from './data/javascript3.json';
+import web1 from './data/web1.json';
+import web2 from './data/web2.json';
+import linux1 from './data/linux1.json';
+import python1 from './data/python1.json';
+import canvas1 from './data/canvas1.json';
+
+const quizzes = [
+  general1,
+  general2,
+  general3,
+  history1,
+  programming1,
+  programming2,
+  javascript1,
+  javascript2,
+  javascript3,
+  web1,
+  web2,
+  linux1,
+  python1,
+  canvas1,
+]
 
 function App() {
-  return (
-    <><Router>
+  return (<>
+  <Router>
       <Navbar/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='quiz'>
-          <Route index element={<QuizPage/>}/>
+          <Route index element={<QuizPage quizzes={quizzes}/>}/>
 
-          <Route path='general1' 
-            element={<Quiz title="General 1" data="general1"/>}/>
-          <Route path='general2' 
-            element={<Quiz title="General 2" data="general2"/>}/>
-          <Route path='general3' 
-            element={<Quiz title="General 3" data="general3"/>}/>
-          <Route path='history1' 
-            element={<Quiz title="History 1" data="history1"/>}/>
-          <Route path='programming1' 
-            element={<Quiz title="Programming 1" data="programming1"/>}/>
-          <Route path='programming2' 
-            element={<Quiz title="Programming 2" data="programming2"/>}/>
-          <Route path='javascript1' 
-            element={<Quiz title="JavaScript 1" data="javascript1"/>}/>
-          <Route path='javascript2' 
-            element={<Quiz title="JavaScript 2" data="javascript2"/>}/>
-          <Route path='javascript3' 
-            element={<Quiz title="JavaScript 3" data="javascript3"/>}/>
-          <Route path='web1'
-            element={<Quiz title="Web 1" data="web1"/>}/>
-          <Route path='web2'
-            element={<Quiz title="Web 2" data="web2"/>}/>
-          <Route path='linux1'
-            element={<Quiz title="Linux 1" data="linux1"/>}/>
-          <Route path='python1' 
-            element={<Quiz title="Python 1" data="python1"/>}/>
-          <Route path='canvas1' 
-            element={<Quiz title="BMC 1" data="canvas1"/>}/>
+          <Route path='general1' element={<Quiz data={general1}/>}/>
+          <Route path='general2' element={<Quiz data={general2}/>}/>
+          <Route path='general3' element={<Quiz data={general3}/>}/>
+          <Route path='history1' element={<Quiz data={history1}/>}/>
+          <Route path='programming1' element={<Quiz data={programming1}/>}/>
+          <Route path='programming2' element={<Quiz data={programming2}/>}/>
+          <Route path='javascript1' element={<Quiz data={javascript1}/>}/>
+          <Route path='javascript2' element={<Quiz data={javascript2}/>}/>
+          <Route path='javascript3' element={<Quiz data={javascript3}/>}/>
+          <Route path='web1' element={<Quiz data={web1}/>}/>
+          <Route path='web2' element={<Quiz data={web2}/>}/>
+          <Route path='linux1' element={<Quiz data={linux1}/>}/>
+          <Route path='python1' element={<Quiz data={python1}/>}/>
+          <Route path='canvas1' element={<Quiz data={canvas1}/>}/>
 
-          <Route path='*' element={<QuizPage/>}>
-
-          </Route>
+          <Route path='*' element={<QuizPage/>}/>
         </Route>
         <Route path='about' element={<AboutPage/>}/>
         <Route path='*' element={"404"}/>
       </Routes>
       <Footer/>
-
-    </Router></>
-  )
+    </Router>
+  </>)
 }
 
 export default App

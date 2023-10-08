@@ -2,7 +2,9 @@
   {
     "name": "web2",
     "title": "Web Hosting and Domains",
-    "tags": ["web"]
+    "desc": "Easy Web questions.",
+    "tags": ["web"],
+    "lang": "en"
   },
   {
     "id": 1,

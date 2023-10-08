@@ -2,7 +2,9 @@
   {
     "name": "general1",
     "title": "General 1",
-    "tags": ["general"]
+    "desc": "Easy general knowledge questions.",
+    "tags": ["general"],
+    "lang": "en"
   },
   {
     "id": 1,

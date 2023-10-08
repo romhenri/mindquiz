@@ -2,7 +2,9 @@
   {
     "name": "web1",
     "title": "Web 1",
-    "tags": ["programming"]
+    "desc": "Easy Web questions.",
+    "tags": ["programming"],
+    "lang": "en"
   },
   {
     "id": 1,

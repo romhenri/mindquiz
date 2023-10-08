@@ -35,7 +35,7 @@ button:hover {
 }
 
 button.alternative {
-  background-color: #e4e4e4 !important;
+  background-color: #eee !important;
   color: black;
   border: 2px solid #21247000 !important;
 }

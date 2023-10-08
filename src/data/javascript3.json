@@ -2,7 +2,9 @@
   {
     "name": "javascript3",
     "title": "JavaScript 3",
-    "tags": ["programming", "javascript"]
+    "desc": "Easy Javascript questions.",
+    "tags": ["programming", "javascript"],
+    "lang": "en"
   },
   {
     "id": 1,

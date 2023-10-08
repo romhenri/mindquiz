@@ -2,7 +2,9 @@
   {
     "name": "linux1",
     "title": "Linux 1",
-    "tags": ["programming"]
+    "desc": "Easy Linux questions.",
+    "tags": ["programming"],
+    "lang": "en"
   },
   {
     "id": 1,

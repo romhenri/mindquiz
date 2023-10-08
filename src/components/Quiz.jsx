@@ -1,11 +1,11 @@
 import React from 'react'
-import  Question  from './Question'
+import Question from './Question'
 
-const Quiz = ({title, data}) => {
+const Quiz = ({data}) => {
   return (
     <section>
       <div>
-        {title ? title : 'Title'}
+        {data[0].title ? data[0].title : 'Title'}
       </div>
 
       <Question data={data}/>

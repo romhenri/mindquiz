@@ -2,7 +2,9 @@
   {
     "name": "canvas1",
     "title": "BMC 1",
-    "tags": ["business"]
+    "desc": "Easy BMC questions.",
+    "tags": ["business"],
+    "lang": "en"
   },
   {
     "id": 1,

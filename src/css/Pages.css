@@ -31,6 +31,19 @@ welcome-section, quizzes-sections, about-section.
   height: 250px;
 }
 
+.quizPage .quizCard p {
+  margin-bottom: 5px;
+}
+
+.quizPage .quizCard small {
+  margin-top: 10px;
+  background-color: #aaaaaa;
+  color: #fff;
+  padding: 0px 5px 3px;
+  border-radius: 10px;
+}
+
+
 .container div
 .welcome-section .container div img{
   max-width: 200px;

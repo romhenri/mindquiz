@@ -2,7 +2,9 @@
   {
     "name": "python1",
     "title": "Python 1",
-    "tags": ["programming", "python"]
+    "desc": "Easy Python questions.",
+    "tags": ["programming", "python"],
+    "lang": "en"
   },
   {
     "id": 1,
