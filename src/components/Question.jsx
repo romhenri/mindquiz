@@ -19,7 +19,6 @@ class RadioForm extends Component {
     this.dataJSON = this.props.data
 
     console.log(this.dataJSON[0].title);
-
   }
 
   handleOptionChange = (event) => {

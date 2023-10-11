@@ -21,6 +21,7 @@ import web2 from './data/web2.json';
 import linux1 from './data/linux1.json';
 import python1 from './data/python1.json';
 import canvas1 from './data/canvas1.json';
+import principios_da_contabilidade from './data/principios-da-contabilidade.json'
 
 const quizzes = [
   general1,
@@ -37,6 +38,7 @@ const quizzes = [
   linux1,
   python1,
   canvas1,
+  principios_da_contabilidade
 ]
 
 function App() {
@@ -62,6 +64,7 @@ function App() {
           <Route path='linux1' element={<Quiz data={linux1}/>}/>
           <Route path='python1' element={<Quiz data={python1}/>}/>
           <Route path='canvas1' element={<Quiz data={canvas1}/>}/>
+          <Route path='principios-da-contabilidade' element={<Quiz data={principios_da_contabilidade}/>}/>
 
           <Route path='*' element={<QuizPage/>}/>
         </Route>
