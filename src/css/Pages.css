@@ -31,18 +31,19 @@ welcome-section, quizzes-sections, about-section.
   height: 250px;
 }
 
-.quizPage .quizCard p {
-  margin-bottom: 5px;
+.quizPage .quizCard p.desc {
+  margin-bottom: 8px;
 }
 
-.quizPage .quizCard small {
+.quizPage .quizCard .tags span {
+  font-size: .8em;
   margin-top: 10px;
-  background-color: #aaaaaa;
+  background-color: #abb3c7;
   color: #fff;
   padding: 0px 5px 3px;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-right: 3px;
 }
-
 
 .container div
 .welcome-section .container div img{

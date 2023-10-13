@@ -5,14 +5,22 @@ import manThinking from '../assets/man-thinking-bro.png'
 const QuizPage = ({quizzes}) => {
   const navigate = useNavigate()
 
+  function createTags(array) {
+    return array.map((item) => (
+     <span> {item} </span> 
+    ))
+  }
+
   function createQuizzesCards(quizzes) {
     return quizzes.slice(0).map((item, index) => (
       <div key={index} className="quizCard">
         <h3>{quizzes[index][0].title}</h3>
-        <p>{quizzes[index][0].desc}</p>
-        <small>
-          {quizzes[index][0].tags.toString().replace(",", ", ")}
-        </small>
+        <p className='desc'>{quizzes[index][0].desc}</p>
+        <p className='tags'>
+         {createTags(quizzes[index][0].tags)}
+
+          {/* {quizzes[index][0].tags.toString().replace(",", ", ")} */}
+        </p>
       </div>
     ));
   }
