@@ -17,9 +17,7 @@ const QuizPage = ({quizzes}) => {
         <h3>{quizzes[index][0].title}</h3>
         <p className='desc'>{quizzes[index][0].desc}</p>
         <p className='tags'>
-         {createTags(quizzes[index][0].tags)}
-
-          {/* {quizzes[index][0].tags.toString().replace(",", ", ")} */}
+          {createTags(quizzes[index][0].tags)}
         </p>
       </div>
     ));

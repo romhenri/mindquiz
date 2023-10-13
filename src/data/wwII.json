@@ -1,0 +1,119 @@
+[
+  {
+    "name": "wwII",
+    "title": "World War II",
+    "desc": "World War II questions.",
+    "tags": ["history"],
+    "lang": "en"
+  },
+  {
+    "id": 1,
+    "question": "When did World War II start?",
+    "options": [
+      { "id": "a", "text": "1939" },
+      { "id": "b", "text": "1941" },
+      { "id": "c", "text": "1945" },
+      { "id": "d", "text": "1933" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Which country was not part of the Axis Powers during World War II?",
+    "options": [
+      { "id": "a", "text": "Germany" },
+      { "id": "b", "text": "Japan" },
+      { "id": "c", "text": "Italy" },
+      { "id": "d", "text": "Soviet Union" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 3,
+    "question": "What was the code name for the Allied invasion of Normandy on June 6, 1944?",
+    "options": [
+      { "id": "a", "text": "Operation Overlord" },
+      { "id": "b", "text": "Operation Market Garden" },
+      { "id": "c", "text": "Operation Barbarossa" },
+      { "id": "d", "text": "Operation Neptune" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 4,
+    "question": "Which event led to the United States entering World War II?",
+    "options": [
+      { "id": "a", "text": "Pearl Harbor attack" },
+      { "id": "b", "text": "D-Day invasion" },
+      { "id": "c", "text": "Atomic bombings of Hiroshima and Nagasaki" },
+      { "id": "d", "text": "Battle of Stalingrad" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Who was the leader of Nazi Germany during World War II?",
+    "options": [
+      { "id": "a", "text": "Adolf Hitler" },
+      { "id": "b", "text": "Joseph Stalin" },
+      { "id": "c", "text": "Benito Mussolini" },
+      { "id": "d", "text": "Winston Churchill" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 6,
+    "question": "What was the Manhattan Project?",
+    "options": [
+      { "id": "a", "text": "A top-secret U.S. project to develop the atomic bomb" },
+      { "id": "b", "text": "A plan to rebuild post-war Europe" },
+      { "id": "c", "text": "An Allied invasion of Italy" },
+      { "id": "d", "text": "A code-breaking operation" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Which city in Japan was targeted by the atomic bomb on August 6, 1945?",
+    "options": [
+      { "id": "a", "text": "Hiroshima" },
+      { "id": "b", "text": "Nagasaki" },
+      { "id": "c", "text": "Tokyo" },
+      { "id": "d", "text": "Osaka" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "What was the name of the aircraft that dropped the atomic bomb on Hiroshima?",
+    "options": [
+      { "id": "a", "text": "Memphis Belle" },
+      { "id": "b", "text": "Bockscar" },
+      { "id": "c", "text": "Enola Gay" },
+      { "id": "d", "text": "Big Stink" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 9,
+    "question": "Which country was invaded by Nazi Germany, leading to the start of World War II?",
+    "options": [
+      { "id": "a", "text": "Poland" },
+      { "id": "b", "text": "France" },
+      { "id": "c", "text": "Soviet Union" },
+      { "id": "d", "text": "Austria" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 10,
+    "question": "Who was the Prime Minister of the United Kingdom during most of World War II?",
+    "options": [
+      { "id": "a", "text": "David Lloyd George" },
+      { "id": "b", "text": "Neville Chamberlain" },
+      { "id": "c", "text": "Winston Churchill" },
+      { "id": "d", "text": "Stanley Baldwin" }
+    ],
+    "answer": "c"
+  }
+]

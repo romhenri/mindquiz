@@ -11,6 +11,7 @@ import general1 from './data/general1.json';
 import general2 from './data/general2.json';
 import general3 from './data/general3.json';
 import history1 from './data/history1.json';
+import wwII from './data/wwII.json';
 import programming1 from './data/programming1.json';
 import programming2 from './data/programming2.json';
 import javascript1 from './data/javascript1.json';
@@ -28,6 +29,7 @@ const quizzes = [
   general2,
   general3,
   history1,
+  wwII,
   programming1,
   programming2,
   javascript1,
@@ -54,6 +56,7 @@ function App() {
           <Route path='general2' element={<Quiz data={general2}/>}/>
           <Route path='general3' element={<Quiz data={general3}/>}/>
           <Route path='history1' element={<Quiz data={history1}/>}/>
+          <Route path='wwII' element={<Quiz data={wwII}/>}/>
           <Route path='programming1' element={<Quiz data={programming1}/>}/>
           <Route path='programming2' element={<Quiz data={programming2}/>}/>
           <Route path='javascript1' element={<Quiz data={javascript1}/>}/>

@@ -1,9 +1,9 @@
 [
   {
     "name": "web2",
-    "title": "Web Hosting and Domains",
+    "title": "Web 2",
     "desc": "Easy Web questions.",
-    "tags": ["web"],
+    "tags": ["web", "programming"],
     "lang": "en"
   },
   {
