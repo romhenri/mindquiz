@@ -1,19 +1,21 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import manThinking from '../assets/man-thinking-bro.png'
+import SearchBar from '../components/SearchBar'
+import '../css/QuizPage.css'
 
 const QuizPage = ({quizzes}) => {
   const navigate = useNavigate()
-
+  
   function createTags(array) {
-    return array.map((item) => (
-     <span> {item} </span> 
+    return array.map((item, index) => (
+     <span key={index}> {item} </span> 
     ))
   }
 
   function createQuizzesCards(quizzes) {
     return quizzes.slice(0).map((item, index) => (
-      <div key={index} className="quizCard">
+      <div key={index} className="quizCard" tags={quizzes[index][0].tags}>
         <h3>{quizzes[index][0].title}</h3>
         <p className='desc'>{quizzes[index][0].desc}</p>
         <p className='tags'>
@@ -61,9 +63,11 @@ const QuizPage = ({quizzes}) => {
         </div>
       </section>
 
-        <div className="container">
-         {createQuizzesCards(quizzes)}
-        </div>
+      <SearchBar/>
+
+      <div className="container">
+        {createQuizzesCards(quizzes)}
+      </div>
     </main>
   )
 }

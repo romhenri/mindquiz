@@ -50,11 +50,3 @@ button.alternative:hover {
   background-color: #dbdbdb !important;
   border: 2px solid #c0c0c0 !important;
 }
-
-.quizPage .container {
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 1080px;
-}
