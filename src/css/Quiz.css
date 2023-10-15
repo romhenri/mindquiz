@@ -23,24 +23,24 @@
  outline: none;
 }
 
-button {
+.buttonsLine button {
   background-color: #25288b !important;
   padding: 10px 0px;
   flex-grow: 1;
   border: 2px solid #212370 !important;
 }
 
-button:hover {
+.buttonsLine button:hover {
   background-color: #22257c !important;
 }
 
-button.alternative {
+.buttonsLine button.alternative {
   background-color: #eee !important;
   color: black;
   border: 2px solid #21247000 !important;
 }
 
-button:active {
+.buttonsLine button:active {
   scale: 95%;
   transition: .3s;
 }
@@ -49,12 +49,4 @@ button.alternative:hover {
   transition: .3s;
   background-color: #dbdbdb !important;
   border: 2px solid #c0c0c0 !important;
-}
-
-.quizPage .container {
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 1080px;
 }

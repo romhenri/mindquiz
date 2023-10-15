@@ -5,7 +5,7 @@ import '../css/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <header className="navbar">
 
       <h1><span>Mind</span>Quiz</h1>
       
@@ -18,7 +18,7 @@ const Navbar = () => {
         </NavLink> */}
       </nav>
 
-    </div>
+    </header>
   )
 }
 

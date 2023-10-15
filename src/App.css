@@ -63,30 +63,6 @@ section {
   box-sizing: border-box !important;
 }
 
-.quizCard {
-  padding: 20px 40px 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border-radius: 10px;
-  width: 360px;
-  /* max-width: 520px; */
-  min-width: 280px;
-  border: 2px solid #d1d1d100;
-  cursor: pointer;
-  flex-grow: 1;
-  transition: border linear 0.1s;
-}
-
-.quizCard:hover {border: 2px solid #6981BA;}
-
-section.simple {
-  max-width: 520px;
-}
-
-.active {
-  color: var(--active);
-  transition: color .3s;
-}
-
 .active button 
 
 footer {
