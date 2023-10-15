@@ -49,27 +49,27 @@ const QuizPage = ({quizzes}) => {
     };
   }, [quizzes, navigate]);
 
-  return (
-    <main className='quizPage'>
-      <section className='quizzes'>
-        <div className='container'>
-          <div>
-            <h2>Quizzes:</h2>
-            <p>MindQuiz offers a wide array of quizzes for all interests. From challenging trivia to engaging puzzles, there's something for everyone. Whether you're into history, science, or pop culture, we've got quizzes to both entertain and challenge you. Explore a world of topics designed to stimulate your mind. Join us at MindQuiz!</p>
-          </div>
-          <div>
-            <img src={manThinking} alt="Man thinking" />
-          </div>
+return (
+  <main className='quizPage'>
+    <section className='quizzes'>
+      <div className='container'>
+        <div>
+          <h2>Quizzes:</h2>
+          <p>MindQuiz offers a wide array of quizzes for all interests. From challenging trivia to engaging puzzles, there's something for everyone. Whether you're into history, science, or pop culture, we've got quizzes to both entertain and challenge you. Explore a world of topics designed to stimulate your mind. Join us at MindQuiz!</p>
         </div>
-      </section>
-
-      <SearchBar/>
-
-      <div className="container">
-        {createQuizzesCards(quizzes)}
+        <div>
+          <img src={manThinking} alt="Man thinking" />
+        </div>
       </div>
-    </main>
-  )
+    </section>
+
+    <SearchBar/>
+
+    <div className="container">
+      {createQuizzesCards(quizzes)}
+    </div>
+  </main>
+)
 }
 
 export default QuizPage

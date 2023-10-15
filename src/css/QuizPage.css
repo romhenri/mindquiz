@@ -37,7 +37,16 @@ section.simple {
   padding: 10px;
   gap: 10px;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
+  padding-left: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
 }
 
 .quizPage section.config p {
@@ -45,7 +54,7 @@ section.simple {
 }
 
 .quizPage section.config button {
-  background-color: transparent !important;
+  background-color: transparent;
   color: rgba(0, 0, 0, 0.800);
   padding: 5px 10px;
   border: 1px solid #a4b2d1 !important;
@@ -54,4 +63,48 @@ section.simple {
 
 .hidden {
   display: none !important;
+}
+
+.config button.filter:hover{
+  background-color: rgba(0, 0, 255, 0.03);
+}
+.config button.filter.active {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.clear {
+  border-radius: 30px;
+}
+.clear:hover {
+  background-color: rgba(0, 0, 255, 0.03);
+}
+.clear:active {
+  background-color: rgba(0, 0, 255, 0.2) !important;
+}
+
+@media (max-width: 768px) {
+
+  .config {
+    padding-left: 10px !important;
+  }
+
+  .config div:nth-child(1) {
+    display: none;
+  }
+
+  .filter-div {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .filter-div p {
+    width: 100%;
+    flex-grow: 1 !important;
+    text-align: center;
+    display: none;
+  }
+  .filter-div .clear {
+    max-width: 30px;
+  }
+
 }
