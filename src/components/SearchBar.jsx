@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 // import { useNavigate } from 'react-router-dom'
 import '../css/QuizPage.css'
+import xmark from '../assets/xmark-svgrepo-com.svg'
 
 const SearchBar = () => {
   const [general, setGeneral] = useState(-1);
@@ -139,7 +140,9 @@ const SearchBar = () => {
           Business
         </button>
 
-        <button className='clear' onClick={clear} >X</button>
+        <div className='clear' onClick={clear}>
+          <img src={xmark} alt="" />
+        </div>
       </div>
     </section>
   )
