@@ -5,11 +5,19 @@ import xmark from '../assets/xmark-svgrepo-com.svg'
 import searh_icon from '../assets/search-svgrepo-com.svg'
 
 const SearchBar = () => {
+  const [searchTerm, setSearchTerm] = useState("")
+
   const [general, setGeneral] = useState(-1);
   const [history, setHistory] = useState(-1);
   const [programming, setProgramming] = useState(-1);
   const [web, setWeb] = useState(-1);
   const [business, setBusiness] = useState(-1);
+
+  function initSearchBar() {
+    searchBar.addEventListener("keyup", (e) => {
+      setSearchTerm(searchBar.value.toLowerCase());
+    })
+  }
 
   // Change tags States.
   useEffect(() => {
@@ -17,7 +25,7 @@ const SearchBar = () => {
 
     // Change tags States.
     const handleQuizCardClick = (tag) => {
-      console.log(`Received: ${tag}`);
+      // console.log(`Received: ${tag}`);
 
       switch (tag) {
         case 'general':
@@ -37,8 +45,8 @@ const SearchBar = () => {
           break
       }
 
-      console.group(`The setStates list updated!`);
-      console.log(general, history, programming, web, business)
+      // console.group(`The setStates list updated!`);
+      // console.log(general, history, programming, web, business)
       console.groupEnd();
 
     };
@@ -49,7 +57,9 @@ const SearchBar = () => {
       });
     })
   
-  console.log('Effect');
+    const searchBar = document.querySelector('#searchBar')
+    initSearchBar()
+  // console.log('Effect');
   },)
 
   // 
@@ -83,7 +93,7 @@ const SearchBar = () => {
       activeList.push('business')
     }
 
-    console.log(`activeTagsListArray = ${activeList}`);
+    // console.log(`activeTagsListArray = ${activeList}`);
 
     quizCards.forEach((card, index) => {
       let tagsAtr = card.getAttribute('tags')
@@ -91,10 +101,15 @@ const SearchBar = () => {
 
       if (!includesOfArray(tagsAtr, activeList)) {
         card.classList.add('hidden')
-      }}
+      }
+
+      if (!card.innerText.toLowerCase().includes(searchTerm)) {
+        card.classList.add('hidden')
+      }
+    }
     )
 
-  }, [general, history, programming, web, business])
+  }, [searchTerm, general, history, programming, web, business])
 
 
   function getStatus(tag) {
@@ -117,7 +132,7 @@ const SearchBar = () => {
     <section className='config'>
         
       <div className='search-div'>
-        <input type="text" name="searchbar" id="searchbar"
+        <input type="text" name="searchBar" id="searchBar"
         placeholder='Search title or keywords...'
         className='search'/>
         <img src={searh_icon} alt="" />
