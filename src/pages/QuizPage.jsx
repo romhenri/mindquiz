@@ -65,8 +65,10 @@ return (
 
     <SearchBar/>
 
-    <div className="container">
-      {createQuizzesCards(quizzes)}
+    <div className="quizzes-container">
+      <div className="container">
+        {createQuizzesCards(quizzes)}
+      </div>
     </div>
   </main>
 )

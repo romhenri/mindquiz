@@ -81,6 +81,10 @@ welcome-section, quizzes-sections, about-section.
   background-color: rgb(255, 255, 255);
 }
 
+.error-section .container div {
+  margin: auto;
+}
+
 /* ================================== */
 
 @media (max-width: 768px) {

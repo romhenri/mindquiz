@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 // import { useNavigate } from 'react-router-dom'
 import '../css/QuizPage.css'
+import xmark from '../assets/xmark-svgrepo-com.svg'
+import xmarkPNG from '../assets/close.png'
 
 const SearchBar = () => {
   const [general, setGeneral] = useState(-1);
@@ -9,10 +11,11 @@ const SearchBar = () => {
   const [web, setWeb] = useState(-1);
   const [business, setBusiness] = useState(-1);
 
+  // Change tags States.
   useEffect(() => {
     const filtersButtons = document.querySelectorAll('.filter');
-    const quizCards = document.querySelectorAll('.quizCard')
 
+    // Change tags States.
     const handleQuizCardClick = (tag) => {
       console.log(`Received: ${tag}`);
 
@@ -39,8 +42,7 @@ const SearchBar = () => {
       console.groupEnd();
 
     };
-
-    // Add "EventListener" to all cards
+    // Add "EventListener" to all cards.
     filtersButtons.forEach((btn, index) => {
       btn.addEventListener('click', () => {
         handleQuizCardClick(btn.getAttribute('tag'));
@@ -50,8 +52,8 @@ const SearchBar = () => {
   console.log('Effect');
   },)
 
+  // 
   useEffect(() => {
-    const filtersButtons = document.querySelectorAll('.filter');
     const quizCards = document.querySelectorAll('.quizCard')
 
     // Check if some tag of array is active
@@ -94,7 +96,6 @@ const SearchBar = () => {
 
   }, [general, history, programming, web, business])
 
-  // Component
 
   function getStatus(tag) {
     if (tag > 0) {
@@ -111,6 +112,7 @@ const SearchBar = () => {
     setBusiness(-1)
   }
 
+  // Component
   return (
     <section className='config'>
         
@@ -139,7 +141,9 @@ const SearchBar = () => {
           Business
         </button>
 
-        <button className='clear' onClick={clear} >X</button>
+        <div className='clear' onClick={clear}>
+          <img src={xmark} alt="" />
+        </div>
       </div>
     </section>
   )
