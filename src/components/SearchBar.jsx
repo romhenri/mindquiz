@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 // import { useNavigate } from 'react-router-dom'
 import '../css/QuizPage.css'
 import xmark from '../assets/xmark-svgrepo-com.svg'
-import xmarkPNG from '../assets/close.png'
+import searh_icon from '../assets/search-svgrepo-com.svg'
 
 const SearchBar = () => {
   const [general, setGeneral] = useState(-1);
@@ -116,7 +116,12 @@ const SearchBar = () => {
   return (
     <section className='config'>
         
-      <div>Search with accuracy:</div>
+      <div className='search-div'>
+        <input type="text" name="searchbar" id="searchbar"
+        placeholder='Search title or keywords...'
+        className='search'/>
+        <img src={searh_icon} alt="" />
+      </div>
 
       <div className='filter-div'>
         <p>Filter:</p>
