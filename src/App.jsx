@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import HomePage from './pages/HomePage'
 import QuizPage from './pages/QuizPage'
 import AboutPage from './pages/AboutPage'
+import ErrorPage from './pages/ErrorPage'
 import Quiz from './components/Quiz'
 // Data
 import general1 from './data/general1.json';
@@ -69,10 +70,11 @@ function App() {
           <Route path='canvas1' element={<Quiz data={canvas1}/>}/>
           <Route path='principios-da-contabilidade' element={<Quiz data={principios_da_contabilidade}/>}/>
 
-          <Route path='*' element={<QuizPage/>}/>
+          <Route path='*' element={<QuizPage quizzes={quizzes}/>}/>
         </Route>
         <Route path='about' element={<AboutPage/>}/>
-        <Route path='*' element={"404"}/>
+        <Route path='error' element={<ErrorPage/>}/>
+        <Route path='*' element={<ErrorPage/>}/>
       </Routes>
       <Footer/>
     </Router>
