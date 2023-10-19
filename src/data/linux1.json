@@ -4,6 +4,7 @@
     "title": "Linux 1",
     "desc": "Easy Linux questions.",
     "tags": ["programming"],
+    "keywords": ["os", "terminal", "torvalds"],
     "lang": "en"
   },
   {

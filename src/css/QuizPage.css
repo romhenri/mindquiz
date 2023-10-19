@@ -39,11 +39,10 @@ section.simple {
 
 .quizPage section.config {
   display: flex;
-  padding: 10px;
+  padding: 8px 15px 8px 25px;
   gap: 10px;
   align-items: center;
   justify-content: space-between;
-  padding-left: 40px;
   flex-wrap: wrap;
 }
 
@@ -62,7 +61,7 @@ section.simple {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.800);
   padding: 5px 10px;
-  box-shadow: rgba(0, 0, 0, 0.09) 5px 6px 24px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.07) 3px 3px 15px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
   border: 2px solid transparent;
   flex-grow: 0;
 }
@@ -99,14 +98,40 @@ section.simple {
   opacity: .6;
 }
 
-@media (max-width: 768px) {
+.search-div {
+  flex-grow: 1;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
 
+.search-div img {
+  width: 23px;
+  opacity: .6;
+}
+
+.search {
+  box-shadow: rgb(216, 216, 216) 1px 1px 4px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: 75%;
+}
+
+.search:focus {
+  border: 1px solid #3d3d3d;
+}
+
+@media (max-width: 768px) {
   .config {
-    padding-left: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
-  .config div:nth-child(1) {
+  .config div:nth-child(2) {
     display: none;
+  }
+
+  .search {
+    width: 92%;
   }
 
   .filter-div {

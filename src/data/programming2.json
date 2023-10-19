@@ -4,6 +4,7 @@
     "title": "Programming 1",
     "desc": "Easy general programming questions.",
     "tags": ["programming"],
+    "keywords": ["language", "technology", "web", "ecmascript", "javascript", "python", "html", "css", "http", "framework"],
     "lang": "en"
   },
   {
