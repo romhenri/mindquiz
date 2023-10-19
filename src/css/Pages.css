@@ -117,6 +117,10 @@ welcome-section, quizzes-sections, about-section.
   .welcome-section .container {
     padding-left: 10px!important;
   }
+
+  .quizCard {
+    padding-left: 30px !important;
+  }
   
   .quizPage p {
     margin-bottom: 5px;

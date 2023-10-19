@@ -4,6 +4,7 @@
     "title": "History 1",
     "desc": "Easy history questions.",
     "tags": ["history"],
+    "keywords": ["eua", "united states", "world war", "soviet union", "discovering"],
     "lang": "en"
   },
   {
@@ -109,11 +110,11 @@
     "id": 10,
     "question": "What is the largest river in the world?",
     "options": [
-      { "id": "a", "text": "Nile River" },
+      { "id": "a", "text": "Mississippi River" },
       { "id": "b", "text": "Amazon River" },
-      { "id": "c", "text": "Mississippi River" },
+      { "id": "c", "text": "Nile River" },
       { "id": "d", "text": "Yangtze River" }
     ],
-    "answer": "b"
+    "answer": "c"
   }
 ]

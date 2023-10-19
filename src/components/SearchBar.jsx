@@ -97,13 +97,21 @@ const SearchBar = () => {
 
     quizCards.forEach((card, index) => {
       let tagsAtr = card.getAttribute('tags')
+      let keywordsAtr = card.getAttribute('keywords')
+
+      if (!keywordsAtr) {
+        keywordsAtr = ''
+      }
+      
       card.classList.remove('hidden')
 
-      if (!includesOfArray(tagsAtr, activeList)) {
+      if ((!includesOfArray(tagsAtr, activeList))){
         card.classList.add('hidden')
       }
 
-      if (!card.innerText.toLowerCase().includes(searchTerm)) {
+      if (
+        (!card.innerText.toLowerCase().includes(searchTerm)) &&
+        (!keywordsAtr.includes(searchTerm))) {
         card.classList.add('hidden')
       }
     }

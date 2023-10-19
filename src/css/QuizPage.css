@@ -121,13 +121,17 @@ section.simple {
 }
 
 @media (max-width: 768px) {
-
   .config {
-    padding-left: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
-  .config div:nth-child(1) {
+  .config div:nth-child(2) {
     display: none;
+  }
+
+  .search {
+    width: 92%;
   }
 
   .filter-div {

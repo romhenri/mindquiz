@@ -15,7 +15,8 @@ const QuizPage = ({quizzes}) => {
 
   function createQuizzesCards(quizzes) {
     return quizzes.slice(0).map((item, index) => (
-      <div key={index} className="quizCard" tags={quizzes[index][0].tags}>
+      <div key={index} className="quizCard" tags={quizzes[index][0].tags}
+        keywords={quizzes[index][0].keywords}>
         <h3>{quizzes[index][0].title}</h3>
         <p className='desc'>{quizzes[index][0].desc}</p>
         <p className='tags'>
