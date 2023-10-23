@@ -3,6 +3,9 @@ import ConclusionPage from '../pages/ConclusionPage.jsx'
 import Button from './Button.jsx'
 import '../css/Quiz.css';
 
+import useSound from 'use-sound';
+import boopSfx from '../../sounds/boop.mp3';
+
 var score = 0
 var numberOfQuestions
 
