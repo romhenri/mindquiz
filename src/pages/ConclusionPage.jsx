@@ -44,25 +44,6 @@ function createAnswerCards(data, answers) {
   ));
 }
 
-// function createAnswerCardsOld(data, answers) {
-//   const cards = [];
-//   for (let i = 1; i < data.length; i++) {
-//     // console.log(data[i].question);
-//     const card = document.createElement('div');
-//     card.className = 'cardAnswer';
-
-//     card.innerHTML = `
-//     <section className={getResult(${data[i].answer}, ${answers[i]}>
-//       <h3>${data[i].id}. ${data[i].question}</h3>
-//       Answer: ${getAnswerText(data[1].options, data[1].answer)}
-//     </section>
-//     `
-//     cards.push(card);
-//   } 
-//   // return cards
-//   console.log(cards);
-// }
-
 const ConclusionPage = ( { data, answers, rate}) => {
   const navigate = useNavigate();
   const returnHome = () => {
