@@ -16,6 +16,8 @@ class RadioForm extends Component {
     };
     score = 0
 
+    console.log(this.props.data);
+
     this.dataJSON = this.props.data
 
     console.log(this.dataJSON[0].title);

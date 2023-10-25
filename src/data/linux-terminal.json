@@ -1,10 +1,10 @@
 [
   {
-    "name": "linux1",
-    "title": "Linux 1",
-    "desc": "Easy Linux questions.",
+    "name": "linux-terminal",
+    "title": "Linux Terminal",
+    "desc": "Easy Linux terminal questions.",
     "tags": ["programming"],
-    "keywords": ["os", "terminal", "torvalds"],
+    "keywords": ["command line", "cli", "os", "terminal", "torvalds"],
     "lang": "en"
   },
   {

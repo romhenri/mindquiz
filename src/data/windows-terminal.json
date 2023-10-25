@@ -1,0 +1,121 @@
+[
+  {
+    "name": "windows-terminal",
+    "title": "Windows Terminal",
+    "desc": "Questions about the Windows Terminal.",
+    "tags": ["programming"],
+    "keywords": ["command line", "Windows", "CLI", "terminal", "os"],
+    "lang": "en"
+  },
+  {
+    "id": 1,
+    "question": "Which shell is the default in Windows Terminal?",
+    "options": [
+      { "id": "a", "text": "Bash" },
+      { "id": "b", "text": "PowerShell" },
+      { "id": "c", "text": "CMD" },
+      { "id": "d", "text": "Zsh" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 2,
+    "question": "How can you run a batch file in Windows Terminal?",
+    "options": [
+      { "id": "a", "text": "Enter its name in the terminal" },
+      { "id": "b", "text": "Use the 'run' command" },
+      { "id": "c", "text": "Type 'batch' before the file name" },
+      { "id": "d", "text": "Double-click the file in File Explorer" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 3,
+    "question": "Which Windows Terminal command is used to list files in a directory?",
+    "options": [
+      { "id": "a", "text": "ls" },
+      { "id": "b", "text": "dir" },
+      { "id": "c", "text": "show" },
+      { "id": "d", "text": "list" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "Which Windows Terminal command is used to remove a file or directory?",
+    "options": [
+      { "id": "a", "text": "delete" },
+      { "id": "b", "text": "del" },
+      { "id": "c", "text": "remove" },
+      { "id": "d", "text": "rmdir" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 5,
+    "question": "Which command clears the terminal screen in Windows Terminal?",
+    "options": [
+      { "id": "a", "text": "clear" },
+      { "id": "b", "text": "cls" },
+      { "id": "c", "text": "clr" },
+      { "id": "d", "text": "clean" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 6,
+    "question": "What is the default file extension for batch files in Windows?",
+    "options": [
+      { "id": "a", "text": ".bat" },
+      { "id": "b", "text": ".cmd" },
+      { "id": "c", "text": ".batch" },
+      { "id": "d", "text": ".exe" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Which Windows Terminal command is used to create a new directory?",
+    "options": [
+      { "id": "a", "text": "mkdir" },
+      { "id": "b", "text": "newdir" },
+      { "id": "c", "text": "create" },
+      { "id": "d", "text": "mkdir -p" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "What is the primary scripting language used in Windows batch files?",
+    "options": [
+      { "id": "a", "text": "Python" },
+      { "id": "b", "text": "JavaScript" },
+      { "id": "c", "text": "VBScript" },
+      { "id": "d", "text": "Batch scripting" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 9,
+    "question": "Which command in Windows Terminal is used to display the contents of a text file?",
+    "options": [
+      { "id": "a", "text": "edit" },
+      { "id": "b", "text": "type" },
+      { "id": "c", "text": "more" },
+      { "id": "d", "text": "write" }
+    ],
+    "answer": "b"
+  },  
+  {
+    "id": 10,
+    "question": "What Windows Terminal command is used to edit a text file?",
+    "options": [
+      { "id": "a", "text": "edit" },
+      { "id": "b", "text": "notepad" },
+      { "id": "c", "text": "vim" },
+      { "id": "d", "text": "nano" }
+    ],
+    "answer": "b"
+  }   
+]
+
