@@ -2,16 +2,11 @@ import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import manThinking from '../assets/man-thinking-bro.png'
 import SearchBar from '../components/SearchBar'
-import xmark from '../assets/xmark-svgrepo-com.svg'
 import '../css/QuizPage.css'
 
 const QuizPage = ({quizzes}) => {
   const navigate = useNavigate()
   
-  function closeQuizSection() {
-    document.querySelector('.quizzes').remove()
-  }
-
   function createTags(array) {
     return array.map((item, index) => (
      <span key={index}> {item} </span> 
@@ -66,9 +61,6 @@ return (
         <div>
           <img src={manThinking} alt="Man thinking" />
         </div>
-      </div>
-      <div className="close-button">
-        <img src={xmark} onClick={closeQuizSection} />
       </div>
     </section>
 
