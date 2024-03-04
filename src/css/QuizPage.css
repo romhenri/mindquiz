@@ -13,7 +13,8 @@
 
 .quizCard {
   padding: 20px 40px 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px 0px,
+  rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
   border-radius: 10px;
   border: 2px solid #d1d1d100;
   cursor: pointer;
@@ -61,7 +62,8 @@ section.simple {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.800);
   padding: 5px 10px;
-  box-shadow: rgba(0, 0, 0, 0.07) 3px 3px 15px 1px, rgba(0, 0, 0, 0.09) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px 0px,
+  rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
   border: 2px solid transparent;
   flex-grow: 0;
 }
@@ -112,7 +114,8 @@ section.simple {
 }
 
 .search {
-  box-shadow: rgb(216, 216, 216) 1px 1px 4px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 10px 0px,
+  rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
   width: 75%;
 }
 
@@ -148,5 +151,4 @@ section.simple {
   .filter-div .clear {
     max-width: 30px;
   }
-
 }

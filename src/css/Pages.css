@@ -64,7 +64,7 @@ welcome-section, quizzes-sections, about-section.
 .conclusion-page section{
   padding: 20px;
   border: 2px solid #a10d0ddc;
-  background-color: hsla(0, 100%, 50%, 0.020);
+  background-color: rgba(255, 0, 0, 0.02);
 }
 
 .conclusion-page > div, .conclusion-page > h2 {
