@@ -1,0 +1,120 @@
+[
+  {
+    "name": "web3",
+    "title": "Web 3",
+    "desc": "Questions about CRUD operations, HTTP, and Browsers.",
+    "tags": ["web", "programming"],
+    "keywords": ["CRUD", "HTTP", "browsers", "web development", "web protocols"],
+    "lang": "en"
+  },
+  {
+    "id": 1,
+    "question": "What does CRUD stand for in web development?",
+    "options": [
+      { "id": "a", "text": "Create, Read, Update, Destroy" },
+      { "id": "b", "text": "Copy, Rename, Update, Delete" },
+      { "id": "c", "text": "Compute, Render, Upload, Download" },
+      { "id": "d", "text": "Connect, Route, Use, Debug" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 2,
+    "question": "Which HTTP method is typically used for deleting a resource?",
+    "options": [
+      { "id": "a", "text": "GET" },
+      { "id": "b", "text": "POST" },
+      { "id": "c", "text": "PUT" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "d"
+  },
+  {
+    "id": 3,
+    "question": "What role by the default do browsers play in the HTTP protocol?",
+    "options": [
+      { "id": "a", "text": "Browsers are responsible for generating HTTP requests" },
+      { "id": "b", "text": "Browsers interpret and display HTTP responses" },
+      { "id": "c", "text": "Browsers establish server connections using HTTP" },
+      { "id": "d", "text": "Browsers authenticate users for HTTP requests" }
+    ],
+    "answer": "b"
+  },
+  {
+    "id": 4,
+    "question": "In HTTP, what status code indicates a successful request?",
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "404" },
+      { "id": "c", "text": "500" },
+      { "id": "d", "text": "301" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 5,
+    "question": "Which HTTP method is typically used for retrieving data?",
+    "options": [
+      { "id": "a", "text": "POST" },
+      { "id": "b", "text": "PUT" },
+      { "id": "c", "text": "GET" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of cookies in web browsing?",
+    "options": [
+      { "id": "a", "text": "To store session information on the client side" },
+      { "id": "b", "text": "To encrypt data transmitted over HTTP" },
+      { "id": "c", "text": "To prevent cross-site scripting attacks" },
+      { "id": "d", "text": "To establish secure server connections" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 7,
+    "question": "Which HTTP header is commonly used for caching?",
+    "options": [
+      { "id": "a", "text": "Cache-Control" },
+      { "id": "b", "text": "Content-Type" },
+      { "id": "c", "text": "Authorization" },
+      { "id": "d", "text": "User-Agent" }
+    ],
+    "answer": "a"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of the 'User-Agent' header in HTTP requests?",
+    "options": [
+      { "id": "a", "text": "To identify the user's IP address" },
+      { "id": "b", "text": "To specify the browser and operating system making the request" },
+      { "id": "c", "text": "To authenticate the user for access control" },
+      { "id": "d", "text": "To specify the language preference of the user" }
+    ],
+    "answer": "b"
+  },  
+  {
+    "id": 9,
+    "question": "What is the purpose of a 'favicon' in web development?",
+    "options": [
+      { "id": "a", "text": "To optimize website performance" },
+      { "id": "b", "text": "To indicate the website's primary language" },
+      { "id": "c", "text": "To provide a small icon for the website in browser tabs and bookmarks" },
+      { "id": "d", "text": "To secure user data transmitted over the network" }
+    ],
+    "answer": "c"
+  },
+  {
+    "id": 10,
+    "question": "Which HTTP method is typically used for updating existing data?",
+    "options": [
+      { "id": "a", "text": "POST" },
+      { "id": "b", "text": "PUT" },
+      { "id": "c", "text": "GET" },
+      { "id": "d", "text": "DELETE" }
+    ],
+    "answer": "b"
+  }
+]

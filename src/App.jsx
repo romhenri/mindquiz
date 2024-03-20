@@ -20,6 +20,7 @@ import javascript2 from './data/javascript2.json';
 import javascript3 from './data/javascript3.json';
 import web1 from './data/web1.json';
 import web2 from './data/web2.json';
+import web3 from './data/web3.json';
 import linux1 from './data/linux-terminal.json';
 import windows1 from './data/windows-terminal.json';
 import python1 from './data/python1.json';
@@ -39,6 +40,7 @@ const quizzes = [
   javascript3,
   web1,
   web2,
+  web3,
   linux1,
   windows1,
   python1,
@@ -67,6 +69,7 @@ function App() {
           <Route path='javascript3' element={<Quiz data={javascript3}/>}/>
           <Route path='web1' element={<Quiz data={web1}/>}/>
           <Route path='web2' element={<Quiz data={web2}/>}/>
+          <Route path='web3' element={<Quiz data={web3}/>}/>
           <Route path='linux-terminal' element={<Quiz data={linux1}/>}/>
           <Route path='windows-terminal' element={<Quiz data={windows1}/>}/>
           <Route path='python1' element={<Quiz data={python1}/>}/>
